@@ -11,3 +11,8 @@
   line-height: 1;
   letter-spacing: -1px;
 }
+
+.student-image {
+    width: 75%;
+    margin-top: 10px;
+}
