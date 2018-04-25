@@ -1,86 +1,44 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>JHU Cognitive Neurophysiology and BMI Lab</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<style>
-			body {font-size:18px;}
-		</style>
-	</head>
-	<body>
-		
-		<!-- The Main wrapper div starts -->
-		<div class="container">
-			<!-- header content -->
-			<!--<h1><a href="index.html">Johns Hopkins Cognitive Neurophysiology and BMI Lab</a></h1>-->
-			<img src="pics/crone-logo.png" class="img-responsive" alt="CRONELAB: Cognitive Research, Online Neuroengineering, and Electrophysiology">
-			<!-- Navigation -->
-			<nav class="navbar navbar-default" role="navigation">
-			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <a class="navbar-brand" href="index.html">Crone Lab</a>
-				</div>
+<head>
+	<meta charset="utf-8">
+	<title>JHU Cognitive Neurophysiology and BMI Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<style>
+	body {font-size:18px;}
+	</style>
+</head>
+<body>
+	<div class="container">
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav">
-					<li><a href="people.html">People</a></li>
-					<li><a href="publications.html">Publications</a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Areas <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="languageconnectivity.html">Language Connectivity</a></li>
-						<li><a href="motorbmi.html">Brain-Machine Interfaces</a></li>
-						<li><a href="functionalmapping.html">Functional Mapping</a></li>
-						<li><a href="seizureconnectivity.html">Epileptogenic Network Connectivity</a></li>
-					  </ul>
-					</li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				  </ul>
-				  <form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-					  <input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				  </form>
-				</div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
+		<div id="navbar"></div>
 
-	        <!-- Footer Section -->
-			<div class="col-md-12"><img src="pics/AuditoryWordRepetition.png" class="img-responsive"></div>
-			<div class="row top10"></div>
-			
-			<h3>Language Connectivity</h3>
-			<div class="row top10">	
-				<div class="col-md-12">The reliance of spoken word production on the function of large-scale cortical networks in frontal, parietal, and temporal lobes has long been appreciated by behavioral neurologists and cognitive psychologists studying the effects of lesions on different brain regions. These effects can be very specific for different aspects of perceptual processing, semantic and phonological representations, and articulatory plans. Psychophysical investigations into the timing of these different cognitive operations have indicated that they occur in a cascaded function. EEG, MEG, and fMRI studies have localized these operations, but because of variations in functional anatomy, these insights cannot be clinically applied to individual patients. ECoG high gamma power changes are sufficiently robust to yield statistically significant responses within individuals, revealing the location and timing of cortical processing at clinically useful resolutions.<br><br>
-				</div>
-			</div>
-			<div class="row top10">
-				<div class="col-md-6">
-				Neural oscillations in the gamma frequency range (70-150 Hz) have been proposed to coordinate large-scale brain networks responsible for language and other cognitive brain functions. Oscillatory activity arising from one subnetwork is therefore hypothesized to influence activity arising from another subnetworks. These influences are expected to occur with different strengths and directionalities, reflecting the changing demands on cortical networks during task performance. To capture the timing of such functional brain interactions as well as their directions, intensities, and spectral characteristics, our lab has developed a new method: event-related causality (ERC).<br><br>
-				Our lab's hypothesis is that word production requires interactions between perisylvian language cortex, basal temporal language cortex, and sensorimotor cortex.  We use the ERC method to analyze ECoG signals recorded while patients perform word production tasks including picture naming, word repetition, reading, and auditory naming to definition.  We have recently used these methods to parse the fine temporal dynamics of processing as it is propagates into and out of Broca's area during word production.  These studies showed that Broca's area plays a critical role in coordinating and transforming representations from other areas of language cortex into articulatory plans to be executed in motor cortex.<br>
-				</div>
-				<div class="col-md-6"><img src="pics/PictureNamingConnectivity.png" class="img-responsive"></div>
-			</div>
-			
-			
-			<!-- Copyright Area -->
-			<hr>
-			<div class="footer">
-				<p>&copy; 2014, Johns Hopkins University</p>
+		<div class="col-md-12"><img src="pics/AuditoryWordRepetition.png" class="img-fluid"></div>
+		<div class="row top10"></div>
+
+		<h3>Language Connectivity</h3>
+		<div class="row top10">
+			<div class="col-md-12">The reliance of spoken word production on the function of large-scale cortical networks in frontal, parietal, and temporal lobes has long been appreciated by behavioral neurologists and cognitive psychologists studying the effects of lesions on different brain regions. These effects can be very specific for different aspects of perceptual processing, semantic and phonological representations, and articulatory plans. Psychophysical investigations into the timing of these different cognitive operations have indicated that they occur in a cascaded function. EEG, MEG, and fMRI studies have localized these operations, but because of variations in functional anatomy, these insights cannot be clinically applied to individual patients. ECoG high gamma power changes are sufficiently robust to yield statistically significant responses within individuals, revealing the location and timing of cortical processing at clinically useful resolutions.<br><br>
 			</div>
 		</div>
+		<div class="row top10">
+			<div class="col-md-6">
+				Neural oscillations in the gamma frequency range (70-150 Hz) have been proposed to coordinate large-scale brain networks responsible for language and other cognitive brain functions. Oscillatory activity arising from one subnetwork is therefore hypothesized to influence activity arising from another subnetworks. These influences are expected to occur with different strengths and directionalities, reflecting the changing demands on cortical networks during task performance. To capture the timing of such functional brain interactions as well as their directions, intensities, and spectral characteristics, our lab has developed a new method: event-related causality (ERC).<br><br>
+				Our lab's hypothesis is that word production requires interactions between perisylvian language cortex, basal temporal language cortex, and sensorimotor cortex.  We use the ERC method to analyze ECoG signals recorded while patients perform word production tasks including picture naming, word repetition, reading, and auditory naming to definition.  We have recently used these methods to parse the fine temporal dynamics of processing as it is propagates into and out of Broca's area during word production.  These studies showed that Broca's area plays a critical role in coordinating and transforming representations from other areas of language cortex into articulatory plans to be executed in motor cortex.<br>
+			</div>
+			<div class="col-md-6"><img src="pics/PictureNamingConnectivity.png" class="img-fluid"></div>
+		</div>
 
-		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-	</body>
+		<hr>
+		<div class="footer">
+			<p>&copy; 2014, Johns Hopkins University</p>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script>
+	$("#navbar").load("navbar.html");
+	</script>
+</body>
 </html>

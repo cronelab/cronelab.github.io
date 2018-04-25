@@ -3,64 +3,21 @@
 	<head>
 		<meta charset="utf-8">
 		<title>JHU Cognitive Neurophysiology and BMI Lab</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 		<style>
 			body {font-size:18px;}
 		</style>
 	</head>
 	<body>
-		
-		<!-- The Main wrapper div starts -->
 		<div class="container">
-			<!-- header content -->
-			<!--<h1><a href="index.html">Johns Hopkins Cognitive Neurophysiology and BMI Lab</a></h1>-->
-			<img src="pics/crone-logo.png" class="img-responsive" alt="CRONELAB: Cognitive Research, Online Neuroengineering, and Electrophysiology">
-			<!-- Navigation -->
-			<nav class="navbar navbar-default" role="navigation">
-			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <a class="navbar-brand" href="index.html">Crone Lab</a>
-				</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav">
-					<li><a href="people.html">People</a></li>
-					<li><a href="publications.html">Publications</a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Areas <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="languageconnectivity.html">Language Connectivity</a></li>
-						<li><a href="motorbmi.html">Brain-Machine Interfaces</a></li>
-						<li><a href="functionalmapping.html">Functional Mapping</a></li>
-						<li><a href="seizureconnectivity.html">Epileptogenic Network Connectivity</a></li>
-					  </ul>
-					</li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				  </ul>
-				  <form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-					  <input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				  </form>
-				</div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
+			<div id="navbar"></div>
 
-	        <!-- Footer Section -->
 			<div class="row top10">
 				<div class="col-md-4">
 				<h3>Brain-Machine Interfaces</h3>
 				Robotic prosthetics like the modular prosthetic limb (MPL) developed by the Johns Hopkins University Applied Physics Lab (JHU/APL) are now capable of extremely dexterous hand and arm movements. The growing capabilities of these prosthetics present a complementary problem of how to provide control to a paralyzed patient over every component of a robotic arm and hand. The field of brain-machine interface (BMI) has attempted to answer this challenge by using movement-related neural activity to control prosthetic limb joints or axes of limb movement.  Our lab is interested in better understanding the representation of these movements in brain signals, and in developing easier ways for patients to control complex prosthetic arms.</div>
-				<div class="col-md-8" style="padding-bottom:20px"><img src="pics/Hybrid_BCI.png" class="img-responsive"></div>
+				<div class="col-md-8" style="padding-bottom:20px"><img src="pics/Hybrid_BCI.png" class="img-fluid"></div>
 			</div>
 			<div class="row top10"></div>
 			<div class="row top10">
@@ -70,7 +27,7 @@
 				There are many ways to measure a patient's neural activity, including scalp electrodes (EEG), functional magnetic resonance imaging (fMRI), and multielectrode arrays capable of recording the firing of single neurons.  Each of these technologies is fairly mature and offers tradeoffs in how much brain it can record from at once (i.e., the "extent of coverage") and in how precisely activity can be localized in space and time.  Our lab is interested in interested in characterizing patterns of neural activity at an intermediate scale using  an emerging (relatively speaking) recording technology known as electrocorticography (ECoG).  ECoG electrodes sit directly on the surface of the cortex and are thought to record from populations of neurons.  There is still a lot to learn about how full movements like reaching out to grab an apple are encoded at this population scale.  Our team recently investigated how reaching and grasping were represented in neural activity when both were performed simultaneously.  The models trained in the study were then used by two subjects to control reaching and grasping of the Modular Prosthetic Limb simultaneously.
 				</div>
 			</div>
-			<div class="col-md-12" style="padding-top:20px;"><img src="pics/MPL_Banner.png" class="img-responsive"></div>
+			<div class="col-md-12" style="padding-top:20px;"><img src="pics/MPL_Banner.png" class="img-fluid"></div>
 			<!-- Copyright Area -->
 			<hr>
 			<div class="footer">
@@ -79,6 +36,9 @@
 		</div>
 
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="js/bootstrap.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<script>
+			$("#navbar").load("navbar.html");
+	</script>
 	</body>
 </html>

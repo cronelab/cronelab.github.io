@@ -1,140 +1,67 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>JHU Cognitive Neurophysiology and BMI Lab</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<style>
-			body {font-size:18px;}
-		</style>
-	</head>
-	<body>
-		
-		<!-- The Main wrapper div starts -->
-		<div class="container">
-			<!-- header content -->
-			<!--<h1><a href="index.html">Johns Hopkins Cognitive Neurophysiology and BMI Lab</a></h1>-->
-			<img src="pics/crone-logo.png" class="img-responsive" alt="CRONELAB: Cognitive Research, Online Neuroengineering, and Electrophysiology">
-			<!-- Navigation -->
-			<nav class="navbar navbar-default" role="navigation">
-			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <a class="navbar-brand" href="index.html">Crone Lab</a>
+<head>
+	<meta charset="utf-8">
+	<title>JHU Cognitive Neurophysiology and BMI Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<style>
+	body {font-size:18px;}
+	</style>
+</head>
+<body>
+
+	<div class="container">
+
+		<div id="navbar"></div>
+
+		<!-- Marketing area -->
+		<div class="jumbotron">
+			<img class="img-fluid" src="pics/People/_labPhoto2.jpg" style="padding-bottom:15px;">
+			<p>Under the direction of Dr. Nathan Crone, the JHU Cognitive Neurophysiology and BMI Lab is working to identify and validate electrophysiological signatures of human cortical processing and to use them to study the neural mechanisms of motor, sensory, and language functions. Where applicable, we are applying this understanding to the development of assistive systems for individuals with disabilities.</p>
+		</div>
+
+		<!-- Content Sections -->
+
+		<hr class="featurette-divider">
+
+		<div class="row featurette">
+			<div class="col-md-7 col-md-push-5">
+				<h2 class="featurette-heading">Semi-Autonomous iEEG Brain-Machine Interfaces</h2>
+				<p>We developed a novel system, the Hybrid Augmented Reality Multimodal Operation Neural Integration Environment (HARMONIE). This system utilizes hybrid input, supervisory control, and intelligent robotics to allow users to identify an object (via eye tracking and computer vision) and initiate (via brain-control) a semi-autonomous reach-grasp-and-drop of the object by the JHU/APL Modular Prosthetic Limb MPL. The novel approach demonstrated in this proof-of-principle study, using hybrid input, supervisory control, and intelligent robotics, addresses limitations of current BMIs. </p>
+				<p><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036&tag=1" role="button" target="_blank">Full Text &raquo;</a>
+					<a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpl/abstractMultimedia.jsp?arnumber=6683036&tag=1" role="button" target="_blank">Videos &raquo;</a></p>
 				</div>
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav">
-					<li><a href="people.html">People</a></li>
-					<li><a href="publications.html">Publications</a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Areas <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="languageconnectivity.html">Language Connectivity</a></li>
-						<li><a href="motorbmi.html">Brain-Machine Interfaces</a></li>
-						<li><a href="functionalmapping.html">Functional Mapping</a></li>
-						<li><a href="seizureconnectivity.html">Epileptogenic Network Connectivity</a></li>
-					  </ul>
-					</li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				  </ul>
-				  <form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-					  <input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				  </form>
-				</div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
-
-	        <!-- Marketing area -->
-	        <div class="jumbotron">
-	        	<img class="img-responsive" src="pics/lab-photo.png" style="padding-bottom:15px;">
-	        	<p>Under the direction of Dr. Nathan Crone, the JHU Cognitive Neurophysiology and BMI Lab is working to identify and validate electrophysiological signatures of human cortical processing and to use them to study the neural mechanisms of motor, sensory, and language functions. Where applicable, we are applying this understanding to the development of assistive systems for individuals with disabilities.</p>
-	        	<!--Button!<a href="#" class="btn btn-large btn-success">Does Nothing</a>-->
-	        </div>
-
-	        <!-- Content Sections -->
-
-	       	<hr class="featurette-divider">
-
-		      <div class="row featurette">
-		        <div class="col-md-7 col-md-push-5">
-		          <h2 class="featurette-heading">Semi-Autonomous iEEG Brain-Machine Interfaces</h2>
-		          <p>We developed a novel system, the Hybrid Augmented Reality Multimodal Operation Neural Integration Environment (HARMONIE). This system utilizes hybrid input, supervisory control, and intelligent robotics to allow users to identify an object (via eye tracking and computer vision) and initiate (via brain-control) a semi-autonomous reach-grasp-and-drop of the object by the JHU/APL Modular Prosthetic Limb MPL. The novel approach demonstrated in this proof-of-principle study, using hybrid input, supervisory control, and intelligent robotics, addresses limitations of current BMIs. </p>
-				  <p><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036&tag=1" role="button" target="_blank">Full Text &raquo;</a>
-				  <a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpl/abstractMultimedia.jsp?arnumber=6683036&tag=1" role="button" target="_blank">Videos &raquo;</a></p>
-		        </div>
-		        <div class="col-md-5 col-md-pull-7">
-		          <img class="featurette-image img-responsive center-block" src="pics/Hybrid_BCI.png" alt="Generic placeholder image">
-		        </div>
-		      </div>
-
-	       	<hr class="featurette-divider">
-
-		      <div class="row featurette">
-		        <div class="col-md-7">
-		          <h2 class="featurette-heading">Redefining Broca's Area</h2>
-		          <!-- <p class="lead"> -->
-		          <p>During the cued production of words, a temporal cascade of neural activity proceeds from sensory representations of words in the temporal cortex to their corresponding articulatory gestures in the motor cortex. Broca's area mediates this cascade through reciprocal interactions with temporal and frontal motor regions. Contrary to classic notions of the role of Broca's area in speech, while the motor cortex is activated during spoken responses, Broca's area is surprisingly silent. Moreover, when novel strings of articulatory gestures must be produced in response to nonword stimuli, neural activity is enhanced in Broca's area, but not in the motor cortex. These unique data provide evidence that Broca's area coordinates the transformation of information across large-scale cortical networks involved in spoken word production. In this role, Broca's area formulates an appropriate articulatory code to be implemented by the motor cortex.</p>
-		          <p><a class="btn btn-primary" href="http://www.pnas.org/content/112/9/2871.short" role="button" target="_blank">Full Text &raquo;</a></p>
-		        </div>
-		        <div class="col-md-5">
-		          <img class="featurette-image img-responsive center-block" src="pics/BrocasPaperImage.jpg" alt="Generic placeholder image">
-		        </div>
-		      </div>
-
-		      <hr class="featurette-divider">
-
-		      <div class="row featurette">
-		        <div class="col-md-7 col-md-push-5" style="vertical-align: middle;">
-		          <h2 class="featurette-heading">Seizure Connectivity Patterns Occur Interictally</h2>
-		          <p>The directionality and intensity of high frequency activity (70-175 Hz) propagation was estimated during ictal and interictal recordings. These analyses revealed prominent divergence and convergence of activity propagation at sites identified by epileptologists as part of the ictal onset zone. In patients with focal ictal onsets, the patterns of propagation recorded during pre-ictal and interictal intervals were very similar to those recorded during seizures. The ability to characterize epileptogenic networks interictally could have important clinical implications by reducing the need for prolonged invasive monitoring to record spontaneous seizures.</p>
-					<p><a class="btn btn-primary" href="http://www.sciencedirect.com/science/article/pii/S1053811914005552" role="button" target="_blank">Full Text &raquo;</a></p>
-		        </div>
-		        <div class="col-md-5 col-md-pull-7">
-		          <img class="featurette-image img-responsive center-block" src="pics/Connectivity2014SummaryImage.png" alt="Generic placeholder image">
-		        </div>
-		      </div>
-
-	        <!-- Example row of columns -->
-	        <!--
-			<div class="row">
-				<div class="col-lg-4">
-					<img src="pics/BrocasPaperImage.jpg" class="img-responsive">
-					<h2>Redefining Broca's Area</h2>
-					<p>Data from event-related changes in activity and information flow provide evidence that Broca's area coordinates the transformation of information across large-scale cortical networks involved in spoken word production, formulating an appropriate articulatory code to be implemented by the motor cortex.</p>
-					<p><a class="btn btn-primary" href="http://www.pnas.org/content/112/9/2871.short" role="button" target="_blank">Link to full text &raquo;</a></p>
+				<div class="col-md-5 col-md-pull-7">
+					<img class="featurette-image img-fluid center-block" src="pics/Hybrid_BCI.png" alt="Generic placeholder image">
 				</div>
-				<div class="col-lg-4">
-					<img src="pics/Connectivity2014SummaryImage.png" class="img-responsive">
-					<h2>Seizure Connectivity Patterns Appear Interictally</h2>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">Redefining Broca's Area</h2>
+					<p>During the cued production of words, a temporal cascade of neural activity proceeds from sensory representations of words in the temporal cortex to their corresponding articulatory gestures in the motor cortex. Broca's area mediates this cascade through reciprocal interactions with temporal and frontal motor regions. Contrary to classic notions of the role of Broca's area in speech, while the motor cortex is activated during spoken responses, Broca's area is surprisingly silent. Moreover, when novel strings of articulatory gestures must be produced in response to nonword stimuli, neural activity is enhanced in Broca's area, but not in the motor cortex. These unique data provide evidence that Broca's area coordinates the transformation of information across large-scale cortical networks involved in spoken word production. In this role, Broca's area formulates an appropriate articulatory code to be implemented by the motor cortex.</p>
+					<p><a class="btn btn-primary" href="http://www.pnas.org/content/112/9/2871.short" role="button" target="_blank">Full Text &raquo;</a></p>
+				</div>
+				<div class="col-md-5">
+					<img class="featurette-image img-fluid center-block" src="pics/BrocasPaperImage.jpg" alt="Generic placeholder image">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7 col-md-push-5" style="vertical-align: middle;">
+					<h2 class="featurette-heading">Seizure Connectivity Patterns Occur Interictally</h2>
 					<p>The directionality and intensity of high frequency activity (70-175 Hz) propagation was estimated during ictal and interictal recordings. These analyses revealed prominent divergence and convergence of activity propagation at sites identified by epileptologists as part of the ictal onset zone. In patients with focal ictal onsets, the patterns of propagation recorded during pre-ictal and interictal intervals were very similar to those recorded during seizures. The ability to characterize epileptogenic networks interictally could have important clinical implications by reducing the need for prolonged invasive monitoring to record spontaneous seizures.</p>
-					<p><a class="btn btn-primary" href="http://www.sciencedirect.com/science/article/pii/S1053811914005552" role="button" target="_blank">Link to full text &raquo;</a></p>
+					<p><a class="btn btn-primary" href="http://www.sciencedirect.com/science/article/pii/S1053811914005552" role="button" target="_blank">Full Text &raquo;</a></p>
 				</div>
-				<div class="col-lg-4">
-				  <img src="pics/Hybrid_BCI.png" class="img-responsive">
-				  <h2>Semi-Autonomous iEEG Brain-Machine Interfaces</h2>
-				  <p>We developed a novel system, the Hybrid Augmented Reality Multimodal Operation Neural Integration Environment (HARMONIE). This system utilizes hybrid input, supervisory control, and intelligent robotics to allow users to identify an object (via eye tracking and computer vision) and initiate (via brain-control) a semi-autonomous reach-grasp-and-drop of the object by the JHU/APL Modular Prosthetic Limb MPL. The novel approach demonstrated in this proof-of-principle study, using hybrid input, supervisory control, and intelligent robotics, addresses limitations of current BMIs. </p>
-				  <p><a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036&tag=1" role="button" target="_blank">Link to full text &raquo;</a>
-				  <a class="btn btn-primary" href="http://ieeexplore.ieee.org/xpl/abstractMultimedia.jsp?arnumber=6683036&tag=1" role="button" target="_blank">Link to videos &raquo;</a></p>
+				<div class="col-md-5 col-md-pull-7">
+					<img class="featurette-image img-fluid center-block" src="pics/Connectivity2014SummaryImage.png" alt="Generic placeholder image">
 				</div>
-			  </div>
-			 -->
-
-	        <!-- Footer Section -->
-	        
-
-			<!-- Copyright Area -->
+			</div>
 			<hr>
 			<div class="footer">
 				<p>&copy; 2014  Johns Hopkins University</p>
@@ -142,6 +69,9 @@
 		</div>
 
 		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="js/bootstrap.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<script>
+		$("#navbar").load("navbar.html");
+		</script>
 	</body>
-</html>
+	</html>

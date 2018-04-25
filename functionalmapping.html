@@ -1,79 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>JHU Cognitive Neurophysiology and BMI Lab</title>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<style>
-			body {font-size:18px;}
-		</style>
-	</head>
-	<body>
-		
-		<!-- The Main wrapper div starts -->
-		<div class="container">
-			<!-- header content -->
-			<!--<h1><a href="index.html">Johns Hopkins Cognitive Neurophysiology and BMI Lab</a></h1>-->
-			<img src="pics/crone-logo.png" class="img-responsive" alt="CRONELAB: Cognitive Research, Online Neuroengineering, and Electrophysiology">
-			<!-- Navigation -->
-			<nav class="navbar navbar-default" role="navigation">
-			  <div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				  </button>
-				  <a class="navbar-brand" href="index.html">Crone Lab</a>
-				</div>
+<head>
+	<meta charset="utf-8">
+	<title>JHU Cognitive Neurophysiology and BMI Lab</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<style>
+	body {font-size:18px;}
+	</style>
+</head>
+<body>
+	<div class="container">
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav">
-					<li><a href="people.html">People</a></li>
-					<li><a href="publications.html">Publications</a></li>
-					<li class="dropdown">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research Areas <b class="caret"></b></a>
-					  <ul class="dropdown-menu">
-						<li><a href="languageconnectivity.html">Language Connectivity</a></li>
-						<li><a href="motorbmi.html">Brain-Machine Interfaces</a></li>
-						<li><a href="functionalmapping.html">Functional Mapping</a></li>
-						<li><a href="seizureconnectivity.html">Epileptogenic Network Connectivity</a></li>
-					  </ul>
-					</li>
-					<li><a href="contactus.html">Contact Us</a></li>
-				  </ul>
-				  <form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-					  <input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				  </form>
-				</div><!-- /.navbar-collapse -->
-			  </div><!-- /.container-fluid -->
-			</nav>
+		<div id="navbar"></div>
 
-	        <!-- Footer Section -->
-	        <h3>Functional Mapping</h3>
-			<div class="row top10">
-				<div class="col-md-12">
-				We are using event-related spectral analysis (ESA) of ECoG signals to study how the human brain implements language. So far we have focused on the neural substrates and processing dynamics of word production. In other words, we have been looking at which parts of the brain are activated, and when they are activated during simple tasks that require subjects to speak a word in response to a visual or auditory stimulus. 
+		<h3>Functional Mapping</h3>
+		<div class="row top10">
+			<div class="col-md-12">
+				We are using event-related spectral analysis (ESA) of ECoG signals to study how the human brain implements language. So far we have focused on the neural substrates and processing dynamics of word production. In other words, we have been looking at which parts of the brain are activated, and when they are activated during simple tasks that require subjects to speak a word in response to a visual or auditory stimulus.
 				<br><br>
 				These stimuli may consist of written words, pictures of objects, or spoken words or parts of words. Although functional MRI and PET scanning can also provide a picture of which parts of the brain are activated by these tasks, it is very difficult for these techniques to discriminate the timing of brain activation on a scale that is consistent with task performance, i.e. hundreds of milliseconds. Like other electromagnetic measures of brain activation (e.g. evoked potentials), ESA has sufficient temporal resolution to allow us to study the timing of activation in different parts of the brain. Since different regions of the brain perform different functions, we can use ESA to study how different cortical regions/functions are called into play during word production.
 				<br><br>
 				The immediate goal of this research is to provide more detailed brain maps of language in patients who are undergoing surgery for intractable epilepsy, vascular malformations, or brain tumors. Although certain areas of the brain (left perisylvian cortex) are usually responsible for language, the details of this mapping of language to the brain can differ significantly between individuals. This map is shaped by learning to speak and understand language during childhood and appears to be unique for each individual. Therefore, when brain surgery is going to be done near "eloquent" areas, it is often a good idea to map language before any brain tissue is removed. This can help the surgeon minimize the risk of surgical complications. In addition to this immediate and practical application of ESA to clinical practice, the long-range goal of our research is to gain a better understanding of how the brain normally produces language, and how brain diseases such as epilepsy, vascular malformations, and tumors, affect language.
-				</div>
-			</div>
-			<!-- Copyright Area -->
-			<hr>
-			<div class="footer">
-				<p>&copy; 2014, Johns Hopkins University</p>
 			</div>
 		</div>
+		<!-- Copyright Area -->
+		<hr>
+		<div class="footer">
+			<p>&copy; 2014, Johns Hopkins University</p>
+		</div>
+	</div>
 
-		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-	</body>
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+	<script>
+	$("#navbar").load("navbar.html");
+	</script>
+</body>
 </html>
