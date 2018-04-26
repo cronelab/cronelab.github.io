@@ -13,11 +13,17 @@
 }
 
 .student-image {
-    width: 75%;
-    margin-top: 10px;
+  position: relative;
+      float: left;
+      width:  180px;
+      height: 180px;
+      background-position: 50% 50%;
+      background-repeat:   no-repeat;
+      background-size:     cover;
 }
 
 .btn-linkedin {
+  font-size: 8px;
   background: #0E76A8;
   border-radius: 0;
   color: #fff;
