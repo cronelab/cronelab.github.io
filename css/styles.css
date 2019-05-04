@@ -38,3 +38,8 @@
   background: #084461;
   color: #fff;
 }
+
+
+.carousel-inner > .carousel-item > img {
+  height:760px;
+}
