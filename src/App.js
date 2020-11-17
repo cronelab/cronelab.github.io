@@ -22,7 +22,7 @@ import Navigation from './Components/Navigation'
 import Footer from './Components/Footer'
 function App() {
   return (
-    <Router>
+    <Router  basename={process.env.PUBLIC_URL}>
       <Container>
         <Navigation></Navigation>
         <Switch>
