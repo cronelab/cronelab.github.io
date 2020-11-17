@@ -19,6 +19,7 @@ import {
   Route
 } from 'react-router-dom'
 import Navigation from './Components/Navigation'
+import Footer from './Components/Footer'
 function App() {
   return (
     <Router>
@@ -63,12 +64,9 @@ function App() {
           <Route path="/epiwatch">
             <Epiwatch />
           </Route>
-
-
-
-
         </Switch>
-
+        <hr/>
+        <Footer></Footer>
       </Container>
     </Router>
   );

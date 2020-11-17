@@ -17,7 +17,10 @@ const Navigation = () => {
             </Nav.Item>
             <NavDropdown title="Research Areas" id="nav-dropdown">
               <NavDropdown.Item href="languageconnectivity" eventKey="4.1">
-                Language Connectivity
+                Connectivity: Language
+              </NavDropdown.Item>
+              <NavDropdown.Item href="seizureconnectivity" eventKey="4.3">
+                Connectivity: Seizure
               </NavDropdown.Item>
               <NavDropdown.Item href="motorbmi" eventKey="4.2">
                 Brain Machine Interfaces: Motor
@@ -28,11 +31,8 @@ const Navigation = () => {
               <NavDropdown.Item href="functionalmapping" eventKey="4.3">
                 Functional Mapping
               </NavDropdown.Item>
-              <NavDropdown.Item href="seizureconnectivity" eventKey="4.3">
-                Seizure Connectivity
-              </NavDropdown.Item>
               <NavDropdown.Item href="spes" eventKey="4.3">
-                SPES
+                Single Pulse Electrical Stimulation
               </NavDropdown.Item>
               <NavDropdown.Item href="epiwatch" eventKey="4.3">
                 Epiwatch

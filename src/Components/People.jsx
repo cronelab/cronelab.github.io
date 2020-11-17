@@ -535,6 +535,7 @@ const People = () => {
           ></Image>
           <div class="caption">
             <h3>Andrew Masteller</h3>
+            <p>M.S. '20</p>
           </div>
         </Col>
         <Col>
@@ -654,10 +655,6 @@ const People = () => {
           <p>Ph.D. '15</p>
         </Col>
       </Row>
-
-      <div class="footer">
-        <p>&copy; 2019, Johns Hopkins University</p>
-      </div>
     </Container>
   );
 };

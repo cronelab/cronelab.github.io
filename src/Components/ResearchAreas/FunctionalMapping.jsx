@@ -1,35 +1,32 @@
 import React from "react";
-import {
-	Image, Col, Row, Container
-} from 'react-bootstrap'
+import { Image, Col, Row, Container } from "react-bootstrap";
+import FMPic from "../../Pictures/Research/FunctionalMapping.png";
 const FunctionalMapping = () => {
   return (
     <>
-      <div class="container">
-        <a href="webFM_Display/index.html">Language Connectivity</a>
-
-        <div id="navbar"></div>
-        <br />
-        <div class="row top10">
-          <div class="col-md-4">
-            <h3>Functional Mapping</h3>
-            We are using event-related spectral analysis (ESA) of ECoG signals
-            to study how the human brain implements language. So far we have
-            focused on the neural substrates and processing dynamics of word
-            production. In other words, we have been looking at which parts of
-            the brain are activated, and when they are activated during simple
-            tasks that require subjects to speak a word in response to a visual
-            or auditory stimulus.
-          </div>
-          <div class="col-md-8" style={{"paddingBottom":"20px"}}>
-            <img src="Pictures/FunctionalMapping.png" class="img-fluid" />
-          </div>
-          <div class="row top10"></div>
-          <a href="http://www.webfm.io/" class="tab">
-            <strong>Click here for a demo</strong>
-          </a>
-          <br />
-          <br />
+      <Container>
+        <h3 style={{ textAlign: "center" }}> Functional Mapping </h3>
+        <hr /> <h3>Functional Mapping</h3>
+        <Row>
+          <Col>
+            <p>
+              We are using event-related spectral analysis (ESA) of ECoG signals
+              to study how the human brain implements language. So far we have
+              focused on the neural substrates and processing dynamics of word
+              production. In other words, we have been looking at which parts of
+              the brain are activated, and when they are activated during simple
+              tasks that require subjects to speak a word in response to a
+              visual or auditory stimulus.
+            </p>
+          </Col>
+          <Col>
+            <Image src={FMPic} fluid></Image>
+            <a href="http://www.webfm.io/" class="tab">
+              <strong>Click here for a demo</strong>
+            </a>
+          </Col>
+        </Row>
+        <Row>
           <p class="tab">
             These stimuli may consist of written words, pictures of objects, or
             spoken words or parts of words. Although functional MRI and PET
@@ -64,12 +61,8 @@ const FunctionalMapping = () => {
             produces language, and how brain diseases such as epilepsy, vascular
             malformations, and tumors, affect language.
           </p>
-        </div>
-      </div>
-      <hr />
-      <div class="footer">
-        <p>&copy; 2019, Johns Hopkins University</p>
-      </div>
+        </Row>
+      </Container>
     </>
   );
 };

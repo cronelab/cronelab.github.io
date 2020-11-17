@@ -580,7 +580,7 @@ const Publications = () => {
         </ListGroupItem>
       </ListGroup>
 
-      <h3>Recent Conference PubListGroupItemcations</h3>
+      <h3>Recent Conference Publications</h3>
       <ListGroup>
         <ListGroupItem>
           Newman G, Fifer M, Benz H, Crone N, Thakor N. Eigenvector centraListGroupItemty

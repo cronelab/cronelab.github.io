@@ -1,37 +1,36 @@
 import React from "react";
-import {
-    Container, Row, Col, Image
-} from 'react-bootstrap'
-import Hybrid_BCI from '../../Pictures/Research/Hybrid_BCI.png'
-import MPL_Banner from'../../Pictures/Research/MPL_Banner.png'
+import { Container, Row, Col, Image } from "react-bootstrap";
+import Hybrid_BCI from "../../Pictures/Research/Hybrid_BCI.png";
+import MPL_Banner from "../../Pictures/Research/MPL_Banner.png";
 const MotorBMI = () => {
   return (
     <>
-      <div class="container">
-
-        <div class="row top10">
-          <div class="col-md-4">
-            <h3>Brain-Machine Interfaces</h3>
-            Robotic prosthetics like the modular prosthetic limb (MPL) developed
-            by the Johns Hopkins University Applied Physics Lab (JHU/APL) are
-            now capable of extremely dexterous hand and arm movements. The
-            growing capabilities of these prosthetics present a complementary
-            problem of how to provide control to a paralyzed patient over every
-            component of a robotic arm and hand. The field of brain-machine
-            interface (BMI) has attempted to answer this challenge by using
-            movement-related neural activity to control prosthetic limb joints
-            or axes of limb movement. Our lab is interested in better
-            understanding the representation of these movements in brain
-            signals, and in developing easier ways for patients to control
-            complex prosthetic arms.
+      <Container>
+        <h3 style={{ textAlign: "center" }}> Motor BMI </h3>
+        <hr />{" "}
+        <Row>
+          <Col md={4}>
+            <p>
+              Robotic prosthetics like the modular prosthetic limb (MPL)
+              developed by the Johns Hopkins University Applied Physics Lab
+              (JHU/APL) are now capable of extremely dexterous hand and arm
+              movements. The growing capabilities of these prosthetics present a
+              complementary problem of how to provide control to a paralyzed
+              patient over every component of a robotic arm and hand. The field
+              of brain-machine interface (BMI) has attempted to answer this
+              challenge by using movement-related neural activity to control
+              prosthetic limb joints or axes of limb movement. Our lab is
+              interested in better understanding the representation of these
+              movements in brain signals, and in developing easier ways for
+              patients to control complex prosthetic arms.
+            </p>
+          </Col>
+          <div class="col-md-8" style={{ "padding-bottom": "20px" }}>
+            <Image src={Hybrid_BCI} fluid></Image>
           </div>
-          <div class="col-md-8" style={{"padding-bottom":"20px"}}>
-              <Image src={Hybrid_BCI} fluid></Image>
-          </div>
-        </div>
-        <div class="row top10"></div>
-        <div class="row top10">
-          <div class="col-md-12">
+        </Row>
+        <Row>
+          <Col>
             We are investigating the use of sensors like the Microsoft Kinect
             interpreted by intelligent algorithms to help users control
             prosthetics more easily with their neural activity. Traditional
@@ -69,16 +68,12 @@ const MotorBMI = () => {
             performed simultaneously. The models trained in the study were then
             used by two subjects to control reaching and grasping of the Modular
             Prosthetic Limb simultaneously.
-          </div>
-        </div>
-        <div class="col-md-12" style={{"paddingTop":"20px"}}>
+          </Col>
+          <div class="col-md-12" style={{ paddingTop: "20px" }}>
             <Image src={MPL_Banner} fluid></Image>
-        </div>
-        <hr />
-        <div class="footer">
-          <p>&copy; 2019, Johns Hopkins University</p>
-        </div>
-      </div>
+          </div>
+        </Row>
+      </Container>
     </>
   );
 };

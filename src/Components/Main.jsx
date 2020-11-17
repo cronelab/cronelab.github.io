@@ -117,10 +117,6 @@ const Main = () => {
           <Image fluid center src={summaryPhoto}></Image>
         </Col>
       </Row>
-      <hr />
-      <div className="footer">
-        <p>&copy; 2019 Johns Hopkins University</p>
-      </div>
     </Container>
   );
 };
