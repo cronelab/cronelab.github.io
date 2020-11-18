@@ -34,8 +34,8 @@ const People = () => {
           <Image src={Crone} thumbnail></Image>
         </Col>
         <Col md={9}>
-          <a href="mailto:ncrone@jhmi.edu">Nathan Crone, M.D.</a> is an
-          Associate Professor of Neurology and director of the Cognitive
+          <a href="mailto:ncrone@jhmi.edu">Nathan Crone, M.D.</a> is a
+          Professor of Neurology and director of the Cognitive
           Neurophysiology and Brain-Machine Interface Laboratory. Dr. Crone
           leads a long-standing research program using intracranial EEG to study
           human brain mechanisms of language, attention, and motor function.
@@ -303,7 +303,7 @@ const People = () => {
             <h3>
               Anna Korzeniewska <small>Ph.D.</small>
             </h3>
-            <h5>Research Associate</h5>
+            <h5>Assistant Professor</h5>
             <a
               href="mailto:akorzen@jhmi.edu"
               class="btn btn-linkedin btn-sm"

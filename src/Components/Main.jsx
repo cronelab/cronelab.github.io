@@ -4,6 +4,7 @@ import labPhoto from "../Pictures/LabPhotos/LabPhoto_2020.png";
 import summaryPhoto from "../Pictures/Research/Connectivity2014SummaryImage.png";
 import Brocas from "../Pictures/Research/BrocasPaperImage.jpg";
 import Hybrid_BCI from "../Pictures/Research/Hybrid_BCI.png";
+import BehavioralPriming from "../Pictures/Research/BehavioralPriming.png";
 const Main = () => {
   return (
     <Container fluid>
@@ -19,6 +20,58 @@ const Main = () => {
           with disabilities.
         </p>
       </Jumbotron>
+      <hr className="featurette-divider" />
+      <Row>
+        <Col>
+          <h2 className="featurette-heading">
+            Large-scale dynamics in the paradox of behavioral priming
+          </h2>
+          <p>
+            Behavioral responses to a perceptual stimulus are typically faster
+            with repeated exposure to the stimulus (behavioral priming). This
+            implicit learning mechanism is critical for survival but impaired in
+            a variety of neurological disorders, including Alzheimer’s disease.
+            Many studies of the neural bases for behavioral priming have
+            encountered an interesting paradox: in spite of faster behavioral
+            responses, repeated stimuli usually elicit weaker neural responses
+            (repetition suppression). Several neurophysiological models have
+            been proposed to resolve this paradox, but noninvasive techniques
+            for human studies have had insufficient spatial-temporal precision
+            for testing their predictions. We used the unparalleled precision of
+            electrocorticography (ECoG) to analyze the timing and magnitude of
+            task-related changes in neural activation and propagation while
+            patients named novel vs repeated visual objects. Stimulus repetition
+            was associated with faster verbal responses and decreased neural
+            activation (repetition suppression) in ventral occipito-temporal
+            cortex (VOTC) and left prefrontal cortex (LPFC). Interestingly, we
+            also observed increased neural activation (repetition enhancement)
+            in LPFC and other recording sites.
+          </p>
+
+          <Image
+            fluid
+            style={{
+              "max-width": "60%",
+              display: "inline",
+              float: "left",
+              paddingRight: "10px",
+            }}
+            src={BehavioralPriming}
+          ></Image>
+          <p>
+            {" "}
+            Moreover, with analysis of high gamma propagation we observed
+            increased top-down propagation from LPFC into VOTC, preceding
+            repetition suppression. The latter results indicate that repetition
+            suppression and behavioral priming are associated with strengthening
+            of top-down network influences on perceptual processing, consistent
+            with predictive coding models of repetition suppression, and they
+            support a central role for changes in large-scale cortical dynamics
+            in achieving more efficient and rapid behavioral responses.
+          </p>
+        </Col>
+      </Row>
+
       <hr className="featurette-divider" />
       <Row>
         <Col>
