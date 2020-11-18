@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Container, Col, Row } from "react-bootstrap";
+import { Image, Container} from "react-bootstrap";
 import AudWordRep from "../../Pictures/Research/AuditoryWordRepetition.png";
 import PictureNamingConnectivity from "../../Pictures/Research/PictureNamingConnectivity.png";
 const SPES = () => {

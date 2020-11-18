@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image, Carousel } from "react-bootstrap";
+import { Container, Image, Carousel } from "react-bootstrap";
 import Brno from "../Pictures/Other/2018_Brno_Feremi_Arya.jpg";
 import ICCN from "../Pictures/Other/2018_ICCN_Crone_Matsumoto_Duffau_Kyoto.jpg";
 import SFN from "../Pictures/Other/2018_SFN.jpg";

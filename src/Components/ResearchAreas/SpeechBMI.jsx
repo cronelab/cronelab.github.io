@@ -1,7 +1,6 @@
 import React from "react";
 import Speech_BMI from "../../Pictures/Research/SpeechBMI.png";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import ReactPlayer from "react-player";
+import { Container, Image } from "react-bootstrap";
 
 const SpeechBMI = () => {
   return (
@@ -13,7 +12,7 @@ const SpeechBMI = () => {
           src={Speech_BMI}
           fluid
           style={{
-            "max-width": "45%",
+            "maxWidth": "45%",
             display: "inline",
             float: "left",
             paddingLeft: "10px",
@@ -50,12 +49,13 @@ const SpeechBMI = () => {
           neural activity decoding.
         </p>
         <iframe
+          title="SpeechVid"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/O0p0zV2pOvA"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </Container>
     </>

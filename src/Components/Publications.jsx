@@ -104,7 +104,7 @@ const Publications = () => {
           Knight RT, D'Esposito M.{" "}
           <a
             href="http://www.nature.com/neuro/journal/vaop/ncurrent/fListGroupl/nn.4071.html"
-            target="_blank"
+             
           >
             {" "}
             Oscillatory dynamics coordinating human frontal networks in support
@@ -125,7 +125,7 @@ const Publications = () => {
           Basu I, Kudela P, Korzeniewska A, Franaszczuk PJ, Anderson WS.{" "}
           <a
             href="http://iopscience.iop.org/1741-2552/12/4/046016/"
-            target="_blank"
+             
           >
             A study of the dynamics of seizure propagation across micro domains
             in the vicinity of the seizure onset zone.
@@ -137,7 +137,7 @@ const Publications = () => {
           Fujiwara H, Mangano FT, Holland KD, Horn PS, Crone NE, Rose DF.{" "}
           <a
             href="http://www.sciencedirect.com/science/article/pii/S0920121114003271"
-            target="_blank"
+             
           >
             Electrocorticographic language mapping in children by high-gamma
             synchronization during spontaneous conversation: Comparison with
@@ -150,7 +150,7 @@ const Publications = () => {
           Anderson WS, Sarma SV.{" "}
           <a
             href="http://www.pnas.org/content/111/49/E5321.short"
-            target="_blank"
+             
           >
             Network dynamics of the brain and influence of the epileptic seizure
             onset zone.
@@ -163,7 +163,7 @@ const Publications = () => {
           Korzeniewska A.{" "}
           <a
             href="http://www.sciencedirect.com/science/article/pii/S1388245714004842"
-            target="_blank"
+             
           >
             Dynamics of functional and effective connectivity within human
             cortical motor control networks.
@@ -174,7 +174,7 @@ const Publications = () => {
           Suffczynski P, Crone NE, Franaszczuk PJ.{" "}
           <a
             href="http://jn.physiology.org/content/112/11/3001.abstract"
-            target="_blank"
+             
           >
             Afferent inputs to cortical fast-spiking interneurons organize
             pyramidal cell network oscillations at high-gamma frequencies
@@ -187,7 +187,7 @@ const Publications = () => {
           Knight RT.{" "}
           <a
             href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001936"
-            target="_blank"
+             
           >
             Dynamic changes in phase-ampListGroupItemtude coupListGroupItemng
             faciListGroupItemtate spatial attention control in fronto-parietal
@@ -200,7 +200,7 @@ const Publications = () => {
           GK, Franaszczuk, Crone NE.{" "}
           <a
             href="http://www.sciencedirect.com/science/article/pii/S1053811914005552"
-            target="_blank"
+             
           >
             Ictal propagation of high frequency activity is recapitListGroupated
             in interictal recordings: Effective connectivity of epileptogenic
@@ -214,7 +214,7 @@ const Publications = () => {
           Crone N.{" "}
           <a
             href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036"
-            target="_blank"
+             
           >
             Demonstration of a Semi-Autonomous Hybrid Brain-Machine Interface
             using Human Intracranial EEG, Eye Tracking, and Computer Vision to
@@ -228,7 +228,7 @@ const Publications = () => {
           NV, Crone NE.{" "}
           <a
             href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6646313"
-            target="_blank"
+             
           >
             SimListGrouptaneous Neural Control of Simple Reaching and Grasping
             with the ModListGroupar Prosthetic ListGroupItemmb using
