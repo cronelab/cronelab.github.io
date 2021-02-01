@@ -6,6 +6,12 @@ const Publications = () => {
       <h3>Journal Publications</h3>
       <ListGroup>
         <ListGroupItem>
+          Chien J-H, Colloca L, Korzeniewska A, Meeker TJ, Bienvenu JO, Saffer
+          MI, Lenz FA. Behavioral, Physiological and EEG Activities Associated
+          with Conditioned Fear as Sensors for Fear and Anxiety. Sensors. 2020.
+          In Print.
+        </ListGroupItem>
+        <ListGroupItem>
           Emerson N, Meeker T, Greenspan J, Saffer M, Campbell C, Korzeniewska
           A, Lenz F. Missed Targets, reaction times and arousal are related to
           trait anxiety and attention to pain during an experimental vigilance
@@ -102,10 +108,7 @@ const Publications = () => {
         <ListGroupItem>
           Voytek B, Kayser AS, Badre D, Fegen D, Chang EF, Crone NE, Parvizi J,
           Knight RT, D'Esposito M.{" "}
-          <a
-            href="http://www.nature.com/neuro/journal/vaop/ncurrent/fListGroupl/nn.4071.html"
-             
-          >
+          <a href="http://www.nature.com/neuro/journal/vaop/ncurrent/fListGroupl/nn.4071.html">
             {" "}
             Oscillatory dynamics coordinating human frontal networks in support
             of goal maintenance.
@@ -123,10 +126,7 @@ const Publications = () => {
         </ListGroupItem>
         <ListGroupItem>
           Basu I, Kudela P, Korzeniewska A, Franaszczuk PJ, Anderson WS.{" "}
-          <a
-            href="http://iopscience.iop.org/1741-2552/12/4/046016/"
-             
-          >
+          <a href="http://iopscience.iop.org/1741-2552/12/4/046016/">
             A study of the dynamics of seizure propagation across micro domains
             in the vicinity of the seizure onset zone.
           </a>{" "}
@@ -135,10 +135,7 @@ const Publications = () => {
         <ListGroupItem>
           Arya R, Wilson JA, Vannest J, Byars AW, Greiner HM, Buroker J,
           Fujiwara H, Mangano FT, Holland KD, Horn PS, Crone NE, Rose DF.{" "}
-          <a
-            href="http://www.sciencedirect.com/science/article/pii/S0920121114003271"
-             
-          >
+          <a href="http://www.sciencedirect.com/science/article/pii/S0920121114003271">
             Electrocorticographic language mapping in children by high-gamma
             synchronization during spontaneous conversation: Comparison with
             conventional electrical cortical stimListGroupation.
@@ -148,10 +145,7 @@ const Publications = () => {
         <ListGroupItem>
           Burns SP, Santaniello S, Yaffe RB, Jouny CC, Crone NE, Bergey GK,
           Anderson WS, Sarma SV.{" "}
-          <a
-            href="http://www.pnas.org/content/111/49/E5321.short"
-             
-          >
+          <a href="http://www.pnas.org/content/111/49/E5321.short">
             Network dynamics of the brain and influence of the epileptic seizure
             onset zone.
           </a>{" "}
@@ -161,10 +155,7 @@ const Publications = () => {
         <ListGroupItem>
           Ewen JB, Lakshmanan BM, Hallett M, Mostofsky SH, Crone NE,
           Korzeniewska A.{" "}
-          <a
-            href="http://www.sciencedirect.com/science/article/pii/S1388245714004842"
-             
-          >
+          <a href="http://www.sciencedirect.com/science/article/pii/S1388245714004842">
             Dynamics of functional and effective connectivity within human
             cortical motor control networks.
           </a>
@@ -172,10 +163,7 @@ const Publications = () => {
         </ListGroupItem>
         <ListGroupItem>
           Suffczynski P, Crone NE, Franaszczuk PJ.{" "}
-          <a
-            href="http://jn.physiology.org/content/112/11/3001.abstract"
-             
-          >
+          <a href="http://jn.physiology.org/content/112/11/3001.abstract">
             Afferent inputs to cortical fast-spiking interneurons organize
             pyramidal cell network oscillations at high-gamma frequencies
             (60–200 Hz).
@@ -185,10 +173,7 @@ const Publications = () => {
         <ListGroupItem>
           Szczepanski S, Crone NE, Kuperman RA, Auguste KI, Parvizi J, and
           Knight RT.{" "}
-          <a
-            href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001936"
-             
-          >
+          <a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001936">
             Dynamic changes in phase-ampListGroupItemtude coupListGroupItemng
             faciListGroupItemtate spatial attention control in fronto-parietal
             cortex.
@@ -198,10 +183,7 @@ const Publications = () => {
         <ListGroupItem>
           Korzeniewska A, Cervenka MC, Jouny CC, Perilla JR, Harezlak J, Bergey
           GK, Franaszczuk, Crone NE.{" "}
-          <a
-            href="http://www.sciencedirect.com/science/article/pii/S1053811914005552"
-             
-          >
+          <a href="http://www.sciencedirect.com/science/article/pii/S1053811914005552">
             Ictal propagation of high frequency activity is recapitListGroupated
             in interictal recordings: Effective connectivity of epileptogenic
             networks recorded with intracranial EEG.
@@ -212,10 +194,7 @@ const Publications = () => {
           McMListGrouplen D*, Hotson G*, Katyal K, Wester B, Fifer M, McGee T,
           Harris A, Johannes M, Vogelstein RJ, Ravitz A, Anderson W, Thakor N,
           Crone N.{" "}
-          <a
-            href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036"
-             
-          >
+          <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036">
             Demonstration of a Semi-Autonomous Hybrid Brain-Machine Interface
             using Human Intracranial EEG, Eye Tracking, and Computer Vision to
             Control a Robotic Upper ListGroupItemmb Prosthetic.
@@ -226,10 +205,7 @@ const Publications = () => {
           Fifer MS*, Hotson G*, Wester BA, McMListGrouplen DP, Wang Y, Johannes
           MS, Katyal KD, Helder JB, Para MP, Vogelstein RJ, Anderson WS, Thakor
           NV, Crone NE.{" "}
-          <a
-            href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6646313"
-             
-          >
+          <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6646313">
             SimListGrouptaneous Neural Control of Simple Reaching and Grasping
             with the ModListGroupar Prosthetic ListGroupItemmb using
             Intracranial EEG.
