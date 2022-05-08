@@ -7,8 +7,10 @@ const Navigation = () => {
       <Image src={logo}></Image>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="/">Home</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
         <Navbar.Collapse>
-          <Nav className="mr-auto">
+          <Nav className="me-auto">
             <Nav.Item>
               <Nav.Link href="people">People</Nav.Link>
             </Nav.Item>

@@ -24,7 +24,7 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <Router  basename={process.env.PUBLIC_URL}>
-      <Container>
+      <Container fluid>
         <Navigation></Navigation>
         <Routes >
         <Route exact path="/" element={<Main/>}/>
