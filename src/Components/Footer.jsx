@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <p>2020, Johns Hopkins University</p>
+        <p>2022, Johns Hopkins University</p>
       </div>
     </>
   );

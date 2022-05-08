@@ -1,15 +1,64 @@
-import React from "react";
-import { ListGroupItem, ListGroup } from "react-bootstrap";
+import React from 'react'
+import { ListGroupItem, ListGroup } from 'react-bootstrap'
 const Publications = () => {
   return (
     <>
       <h3>Journal Publications</h3>
       <ListGroup>
+        <ListGroupItem>Luo S, Rabbani Q, Crone NE. Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication. Neurotherapeutics 2022; 1-11</ListGroupItem>
+        <ListGroupItem>
+          Meeker TJ, Emerson N, Chien JH, Saffer MI, Bienvenu OJ, Korzeniewska
+          A, Greenspan JD, Lenz FA. During Vigilance to Painful Stimuli: Slower
+          Response Rate Related to High Trait Anxiety, whereas a Faster Response
+          Rate is related to High State Anxiety. 2020. Journal of
+          Neurophysiology. J Neurophysiol. 2021;125: 305–319.
+        </ListGroupItem>
+        <ListGroupItem>
+          Wang Y, Hays MA, Coogan C, Korzeniewska A, Crone NE. Spatial-temporal
+          mapping combined with cortico-cortical evoked potentials in predicting
+          cortical stimulation results. Frontiers in Human Neuroscience
+          2021;15:661976.
+        </ListGroupItem>
+
+        <ListGroupItem>
+          Korzeniewska A, Mitsuhashi T, Wang Y, Asano E, Franaszczuk PJ, Crone
+          NE. Significance of event related causality (ERC) in eloquent neural
+          networks. Neural Networks. 2022;149:204-216.
+        </ListGroupItem>
+
+        <ListGroupItem>
+          Gunnarsdottir KM, Li A, Smith RJ, Kang J-Y, Crone NE, Korzeniewska A,
+          Rouse A, Cameron N, Cajigas I, Inati S, Zaghloul KA, Boerwinkle VL,
+          Wyckoff S, Barot N, Gonzalez-Martinez J, Sarma SV. Source-sink
+          connectivity: a novel resting-state EEG marker of the epileptogenic
+          zone. BioRxiv. 2021. doi: https://doi.org/10.1101/2021.10.15.464594
+        </ListGroupItem>
+
+        <ListGroupItem>
+          Hays MA, Smith RJ, Haridas B, Coogan C, Crone NE, Kang JY. Effects of
+          stimulation intensity on intracranial cortico-cortical evoked
+          potentials: A titration study. Clinical Neurophysiology 2021; 132(11):
+          2766-2777
+        </ListGroupItem>
+
+        <ListGroupItem>
+          Hays MA, Coogan C, Crone NE, Kang JY. Graph theoretical analysis of
+          evoked potentials shows network influence of epileptogenic mesial
+          temporal region. Human Brain Mapping 2021; 42(13): 4173-4186
+        </ListGroupItem>
+
+        <ListGroupItem>
+          Kamali G, Smith RJ, Hays M, Coogan C, Crone NE, Kang JY, Sarma SV.
+          Transfer Function Models for the Localization of Seizure Onset Zone
+          from Cortico-Cortical Evoked Potentials. Frontiers in Neurology 2020;
+          11: 1431
+        </ListGroupItem>
+
         <ListGroupItem>
           Chien J-H, Colloca L, Korzeniewska A, Meeker TJ, Bienvenu JO, Saffer
           MI, Lenz FA. Behavioral, Physiological and EEG Activities Associated
-          with Conditioned Fear as Sensors for Fear and Anxiety. Sensors. 2020.
-          In Print.
+          with Conditioned Fear as Sensors for Fear and Anxiety. Sensors.
+          2020;20(23):6751.
         </ListGroupItem>
         <ListGroupItem>
           Emerson N, Meeker T, Greenspan J, Saffer M, Campbell C, Korzeniewska
@@ -107,9 +156,9 @@ const Publications = () => {
         </ListGroupItem>
         <ListGroupItem>
           Voytek B, Kayser AS, Badre D, Fegen D, Chang EF, Crone NE, Parvizi J,
-          Knight RT, D'Esposito M.{" "}
+          Knight RT, D'Esposito M.{' '}
           <a href="http://www.nature.com/neuro/journal/vaop/ncurrent/fListGroupl/nn.4071.html">
-            {" "}
+            {' '}
             Oscillatory dynamics coordinating human frontal networks in support
             of goal maintenance.
           </a>
@@ -117,44 +166,44 @@ const Publications = () => {
         </ListGroupItem>
         <ListGroupItem>
           FListGroupItemnker A, Korzeniewska A, Shestyuk AY, Franaszczuk PJ,
-          Dronkers NF, Knight RT, Crone NE.{" "}
+          Dronkers NF, Knight RT, Crone NE.{' '}
           <a href="http://www.pnas.org/content/112/9/2871.short">
             Redefining the role of Broca’s area in speech.
-          </a>{" "}
+          </a>{' '}
           Proceedings of the National Academy of Sciences (PNAS) 2015; 112(9),
           2871-2875.
         </ListGroupItem>
         <ListGroupItem>
-          Basu I, Kudela P, Korzeniewska A, Franaszczuk PJ, Anderson WS.{" "}
+          Basu I, Kudela P, Korzeniewska A, Franaszczuk PJ, Anderson WS.{' '}
           <a href="http://iopscience.iop.org/1741-2552/12/4/046016/">
             A study of the dynamics of seizure propagation across micro domains
             in the vicinity of the seizure onset zone.
-          </a>{" "}
+          </a>{' '}
           Journal of Neural Engineering 2015; 12(4): 046016.
         </ListGroupItem>
         <ListGroupItem>
           Arya R, Wilson JA, Vannest J, Byars AW, Greiner HM, Buroker J,
-          Fujiwara H, Mangano FT, Holland KD, Horn PS, Crone NE, Rose DF.{" "}
+          Fujiwara H, Mangano FT, Holland KD, Horn PS, Crone NE, Rose DF.{' '}
           <a href="http://www.sciencedirect.com/science/article/pii/S0920121114003271">
             Electrocorticographic language mapping in children by high-gamma
             synchronization during spontaneous conversation: Comparison with
             conventional electrical cortical stimListGroupation.
-          </a>{" "}
+          </a>{' '}
           Epilepsy research 2015; 110, 78-87.
         </ListGroupItem>
         <ListGroupItem>
           Burns SP, Santaniello S, Yaffe RB, Jouny CC, Crone NE, Bergey GK,
-          Anderson WS, Sarma SV.{" "}
+          Anderson WS, Sarma SV.{' '}
           <a href="http://www.pnas.org/content/111/49/E5321.short">
             Network dynamics of the brain and influence of the epileptic seizure
             onset zone.
-          </a>{" "}
+          </a>{' '}
           Proceedings of the National Academy of Sciences (PNAS) 2014; 111(49),
           E5321-E5330.
         </ListGroupItem>
         <ListGroupItem>
           Ewen JB, Lakshmanan BM, Hallett M, Mostofsky SH, Crone NE,
-          Korzeniewska A.{" "}
+          Korzeniewska A.{' '}
           <a href="http://www.sciencedirect.com/science/article/pii/S1388245714004842">
             Dynamics of functional and effective connectivity within human
             cortical motor control networks.
@@ -162,17 +211,17 @@ const Publications = () => {
           CListGroupItemnical Neurophysiology 2015; 126(5), 987-996.
         </ListGroupItem>
         <ListGroupItem>
-          Suffczynski P, Crone NE, Franaszczuk PJ.{" "}
+          Suffczynski P, Crone NE, Franaszczuk PJ.{' '}
           <a href="http://jn.physiology.org/content/112/11/3001.abstract">
             Afferent inputs to cortical fast-spiking interneurons organize
             pyramidal cell network oscillations at high-gamma frequencies
             (60–200 Hz).
-          </a>{" "}
+          </a>{' '}
           Journal of neurophysiology 2014; 112(11), 3001-3011.
         </ListGroupItem>
         <ListGroupItem>
           Szczepanski S, Crone NE, Kuperman RA, Auguste KI, Parvizi J, and
-          Knight RT.{" "}
+          Knight RT.{' '}
           <a href="http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001936">
             Dynamic changes in phase-ampListGroupItemtude coupListGroupItemng
             faciListGroupItemtate spatial attention control in fronto-parietal
@@ -182,34 +231,34 @@ const Publications = () => {
         </ListGroupItem>
         <ListGroupItem>
           Korzeniewska A, Cervenka MC, Jouny CC, Perilla JR, Harezlak J, Bergey
-          GK, Franaszczuk, Crone NE.{" "}
+          GK, Franaszczuk, Crone NE.{' '}
           <a href="http://www.sciencedirect.com/science/article/pii/S1053811914005552">
             Ictal propagation of high frequency activity is recapitListGroupated
             in interictal recordings: Effective connectivity of epileptogenic
             networks recorded with intracranial EEG.
-          </a>{" "}
+          </a>{' '}
           NeuroImage 2014; 101:96-113.
         </ListGroupItem>
         <ListGroupItem>
           McMListGrouplen D*, Hotson G*, Katyal K, Wester B, Fifer M, McGee T,
           Harris A, Johannes M, Vogelstein RJ, Ravitz A, Anderson W, Thakor N,
-          Crone N.{" "}
+          Crone N.{' '}
           <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036">
             Demonstration of a Semi-Autonomous Hybrid Brain-Machine Interface
             using Human Intracranial EEG, Eye Tracking, and Computer Vision to
             Control a Robotic Upper ListGroupItemmb Prosthetic.
-          </a>{" "}
+          </a>{' '}
           IEEE TNSRE 2013; PP(99): 1-1.
         </ListGroupItem>
         <ListGroupItem>
           Fifer MS*, Hotson G*, Wester BA, McMListGrouplen DP, Wang Y, Johannes
           MS, Katyal KD, Helder JB, Para MP, Vogelstein RJ, Anderson WS, Thakor
-          NV, Crone NE.{" "}
+          NV, Crone NE.{' '}
           <a href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6646313">
             SimListGrouptaneous Neural Control of Simple Reaching and Grasping
             with the ModListGroupar Prosthetic ListGroupItemmb using
             Intracranial EEG.
-          </a>{" "}
+          </a>{' '}
           IEEE TNSRE 2013 (pubListGroupItemshed May 2014); 22(3)695-705.
         </ListGroupItem>
         <ListGroupItem>
@@ -253,29 +302,29 @@ const Publications = () => {
           Language mapping in mListGrouptiListGroupItemngual patients:
           Electrocorticography and cortical stimListGroupation during naming.
           Frontiers in Human Neuroscience, 2011;5:13. doi:
-          10.3389/fnhum.2011.00013{" "}
+          10.3389/fnhum.2011.00013{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, Korzeniewska A, Franaszczuk P. Cortical gamma responses:
           Searching high and low. International Journal of Psychophysiology
-          2011; 79(1):9-15.{" "}
+          2011; 79(1):9-15.{' '}
         </ListGroupItem>
         <ListGroupItem>
           ListGroupItemu CC, Shi CQ, Franaszczuk PJ, Crone NE, Schretlen D,
           Ohara S, Lenz FA. PainfListGroup laser stimListGroupi induce directed
           functional interactions within and between the human amygdala and
-          hippocampus. Neuroscience 2011;178:208-17.{" "}
+          hippocampus. Neuroscience 2011;178:208-17.{' '}
         </ListGroupItem>
         <ListGroupItem>
           FListGroupItemnker A, Chang E, Kirsch H, Barbaro N, Crone NE, and
           Knight R. Single-Trial Speech Suppression of Auditory Cortex Activity
-          in Humans. Journal of Neuroscience, 2010;30:16643-16650.{" "}
+          in Humans. Journal of Neuroscience, 2010;30:16643-16650.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Voytek B, Canolty RT, Shestyuk A, Crone N, Parvizi J, Knight RT.
           Shifts in gamma phase-ampListGroupItemtude coupListGroupItemng
           frequency from theta to alpha over posterior cortex during visual
-          tasks. Frontiers in Human Neuroscience, 2010(4):191.{" "}
+          tasks. Frontiers in Human Neuroscience, 2010(4):191.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Acharya S, Fifer MS, Benz HL, Crone NE, Thakor NV.
@@ -287,31 +336,31 @@ const Publications = () => {
           Lee HW, Webber WR, Crone N, MigListGroupItemoretti DL, Lesser RP. When
           is electrical cortical stimListGroupation more ListGroupItemkely to
           produce afterdischarges? CListGroupItemnical Neurophysiology, 2010
-          Jan;121(1):14-20.{" "}
+          Jan;121(1):14-20.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Boatman-Reich D, Franaszczuk PJ, Korzeniewska A, Caffo B, Ritzl EK,
           Colwell S, Crone NE. Quantifying auditory event-related responses in
           mListGrouptichannel human intracranial recordings. Frontiers in
-          Computational Neuroscience, 2010 Mar;4(4): 1-17.{" "}
+          Computational Neuroscience, 2010 Mar;4(4): 1-17.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Ewen JB, Kossoff EH, Crone NE, ListGroupItemn DD, Lakshmanan BM,
           Ferenc LM, Comi AM. Use of quantitative EEG in infants with port-wine
           birthmark to assess for Sturge-Weber brain involvement.
-          CListGroupItemnical Neurophysiology. 2009 Aug;120(8):1433-40.{" "}
+          CListGroupItemnical Neurophysiology. 2009 Aug;120(8):1433-40.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Sinai A, Crone NE, Wied H, Franaszczuk PJ, MigListGroupItemoretti D,
           Boatman-Reich D. Intracranial mapping of auditory perception:
           Event-related recordings and electrocortical stimListGroupation.
-          CListGroupItemnical Neurophysiology, 2009 Jan;120(1):140-9.{" "}
+          CListGroupItemnical Neurophysiology, 2009 Jan;120(1):140-9.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Lee HW, Shin JS, Webber WR, Crone NE, Gingis L, Lesser RP.
           Reorganization of cortical motor and language distribution in human
           brain. Journal of Neurology, Neurosurgery, and Psychiatry. 2009
-          Mar;80(3):285-90.{" "}
+          Mar;80(3):285-90.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Ray S, Crone NE, Niebur E, Franaszczuk PJ, Hsiao SS. Neural correlates
@@ -333,7 +382,7 @@ const Publications = () => {
           Ray S, Hsiao SS, Crone NE, Franaszczuk PJ, Niebur E. Effect of
           stimListGroupus intensity on spike-LFP relationship in secondary
           somatosensory cortex. Journal of Neuroscience, 2008 JListGroup 16;
-          28(29):7334-43.{" "}
+          28(29):7334-43.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Lesser RP, Lee HW, Webber WRS, Prince B, Crone N,
@@ -346,7 +395,7 @@ const Publications = () => {
           demonstrates that the presence of 'pain networks' prior to a noxious
           stimListGroupus can enable the perception of pain in response to that
           stimListGroupus. Experimental Brain Research, 2008 Feb;185(2):353-8.
-          Epub 2008 Jan 30.{" "}
+          Epub 2008 Jan 30.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Ray S, Niebur E, Hsiao SS, Sinai A, and Crone NE. High-frequency gamma
@@ -369,7 +418,7 @@ const Publications = () => {
           Hatfield LA, Crone NE, Kossoff EH, Ewen JB, Pyzik PL, ListGroupItemn
           DD, Kelley TM, Comi AM. Quantitative EEG asymmetry correlates with
           cListGroupItemnical severity in unilateral Sturge-Weber syndrome.
-          Epilepsia, 2007 Jan;48(1):191-5.{" "}
+          Epilepsia, 2007 Jan;48(1):191-5.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, Sinai AS, and Korzeniewska A. High-frequency gamma
@@ -380,13 +429,13 @@ const Publications = () => {
           Zygierewicz J, Mazurkiewicz J, Durka PJ, Franaszczuk PJ, Crone NE.
           Estimation of short-time cross-correlation between frequency bands of
           event related EEG. Journal of Neuroscience Methods, 2006 Oct 30;
-          157(2):294-302.{" "}
+          157(2):294-302.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Ohara S, Crone NE, Weiss N, Lenz FA. Analysis of synchrony
           demonstrates 'pain networks' defined by rapidly switching,
           task-specific, functional connectivity between pain-related cortical
-          structures. Pain, 2006 Aug;123(3):244-53.{" "}
+          structures. Pain, 2006 Aug;123(3):244-53.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Boatman D, Lesser R, Crone N, Krauss G, Lenz F, &
@@ -398,7 +447,7 @@ const Publications = () => {
           Sinai A, Bowers CW, Crainiceanu CM, Boatman D, Gordon B, Lesser RP,
           Lenz FA, Crone NE. Electrocorticographic high gamma activity during
           naming vs. electrical cortical stimListGroupation. Brain, 2005
-          JListGroup;128(Pt 7):1556-70.{" "}
+          JListGroup;128(Pt 7):1556-70.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Kaminski M, Zygierewicz J, Kus R, Crone N. Analysis of
@@ -409,21 +458,21 @@ const Publications = () => {
           Zygierewicz J, Durka PJ, Klekowicz H, Franaszczuk P, Crone NE.
           Computationally efficient approaches to calcListGroupating significant
           ERD/ERS changes in the time-frequency plane. Journal of Neuroscience
-          Methods, 2005 Jun 30;145(1-2):267-76.{" "}
+          Methods, 2005 Jun 30;145(1-2):267-76.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Koubeissi MZ, Crone NE, Lesser RP. Seizures manifesting as an urge to
           defecate, with an ictal discharge in the right hemisphere. Epilepsia.
-          2005 Aug;46(8):1330-2.{" "}
+          2005 Aug;46(8):1330-2.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, Jinnah H, Reich S. Wilson's disease presenting with an
-          unusual cough. Movement Disorders, 2005 JListGroup;20(7):891-3.{" "}
+          unusual cough. Movement Disorders, 2005 JListGroup;20(7):891-3.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Sinha SR, Crone NE, Fotta R, Lenz F, Boatman DF. Transient unilateral
           hearing loss induced by electrocortical stimListGroupation.
-          Neurology,2005;64(2):383-5.{" "}
+          Neurology,2005;64(2):383-5.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Ohara S, Crone NE, Weiss N, Treede RD, Lenz FA. AmpListGroupItemtudes
@@ -457,7 +506,7 @@ const Publications = () => {
           Ray S, Jouny CC, Crone NE, Boatman D, Thakor NV, Franaszczuk PJ. Human
           ECoG analysis during speech perception using matching pursuit: A
           comparison between stochastic and dyadic dictionaries. IEEE Signal
-          Processing, 2003 Dec;50(12):1371-3.{" "}
+          Processing, 2003 Dec;50(12):1371-3.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, Hao L. Functional dynamics of spoken and signed word
@@ -468,18 +517,18 @@ const Publications = () => {
           Motamedi GK, Lesser RP, MigListGroupItemoretti DL, Mizuno-Matsumoto Y,
           Gordon B, Webber WR, Jackson DC, Sepkuty JP, Crone NE. Optimizing
           parameters for terminating cortical afterdischarges with pListGroupse
-          stimListGroupation. Epilepsia 2002;43(8):836-846.{" "}
+          stimListGroupation. Epilepsia 2002;43(8):836-846.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, Hao L, Hart J, Boatman D, Lesser RP, Irizarry R, Gordon B.
           Electrocorticographic gamma activity during word production in spoken
           and sign language. Neurology, 2001; 57(11):2045-2053 (editorial on pp.
-          1947-1948).{" "}
+          1947-1948).{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, Boatman D, Gordon B, Hao L. Induced electrocorticographic
           gamma activity during auditory perception. CListGroupItemnical
-          Neurophysiology 2001;112(4):565-581.{" "}
+          Neurophysiology 2001;112(4):565-581.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Boatman D, AListGroupItemdoost M, Bergey G, Gordon B, Crone N, Hart J,
@@ -491,36 +540,36 @@ const Publications = () => {
           Port J, Rios M. Different generators in human temporal-parasylvian
           cortex account for subdural laser-evoked potentials, auditory-evoked
           potentials, and event-related potentials. Neuroscience Letters
-          2000;279:153-6.{" "}
+          2000;279:153-6.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Moriarity JL, Wetzel M, Clatterbuck RE, Javedan S, Sheppard JM,
           Hoenig-Rigamonti K, Crone NE, Breiter SN, Lee RR, Rigamonti D. The
           natural history of cavernous malformations: a prospective study of 68
-          patients. Neurosurgery 1999;44:1166-71.{" "}
+          patients. Neurosurgery 1999;44:1166-71.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, MigListGroupItemoretti DL, Gordon B, and Lesser RP.
           Functional mapping of human sensorimotor cortex with
           electrocorticographic spectral analysis II. Event-related
-          synchronization in the gamma band. Brain 1998;121:2301-2315.{" "}
+          synchronization in the gamma band. Brain 1998;121:2301-2315.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, MigListGroupItemoretti DL, Gordon B, Sieracki JM, Wilson MT,
           Uematsu S, Lesser RP. Functional mapping of human sensorimotor cortex
           with electrocorticographic spectral analysis I. Alpha and beta
-          event-related desynchronization. Brain 1998;121:2271-2299.{" "}
+          event-related desynchronization. Brain 1998;121:2271-2299.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Hart, J., Crone, N., Lesser, R., Sieracki, J., MigListGroupItemoretti,
           D., Hall, C., Sherman, D. & Gordon, B. Temporal dynamics of verbal
-          object comprehension. Proc Nat Acad Sci USA 1998;95:6498-6503.{" "}
+          object comprehension. Proc Nat Acad Sci USA 1998;95:6498-6503.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Boatman D, Crone N, Hart J, Lesser R, Gordon B. Interrelatedness of
           syllable perception and production: Evidence from direct cortical
           electrical interference and recording. Brain and Language
-          1995;51:188-191.{" "}
+          1995;51:188-191.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE, Hart J, Boatman D, Lesser RP, Gordon B. Regional cortical
@@ -539,14 +588,14 @@ const Publications = () => {
         <ListGroupItem>
           Lesser RP, Arroyo S, Crone N, and Gordon B. Motor and Sensory Mapping
           of the Frontal and Occipital Lobes. Epilepsia 1998;39:(Suppl.
-          4):S69-S80.{" "}
+          4):S69-S80.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE. Functional mapping with ECoG spectral analysis. In:
           WilListGroupItemamson PD, Siegel AM, Roberts DW, Thadani VM, Gazzaniga
           MS, eds. Neocortical Epilepsies. Advances in Neurology, Volume 84.
           ListGroupItemppincott WilListGroupItemams & Wilkins, Philadelphia,
-          2000: 343-51.{" "}
+          2000: 343-51.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone NE & Hao L. The functional significance of event-related
@@ -554,7 +603,7 @@ const Publications = () => {
           electrocorticography. In: Reisin RC, Nuwer MR, Hallett M, Medina C,
           eds. Advances in CListGroupItemnical Neurophysiology (Supplements to
           CListGroupItemnical Neurophysiology), Volume 54. Elsevier Science,
-          Amsterdam, 2002: 435-442.{" "}
+          Amsterdam, 2002: 435-442.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Kaplan PW & Crone N. New-onset epilepsy: Emerging trends and
@@ -569,13 +618,13 @@ const Publications = () => {
           Crone, N.E., et al., ERD/ERS and ERPs, in Event-related potentials in
           patients with epilepsy: from current state to future prospects, A.
           Ikeda and Y. Inoue, Editors. 2008, ListGroupItembbey: Montrouge. p.
-          233-246.{" "}
+          233-246.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Crone, N.E., Korzeniewska, A., Ray, S., Franaszczuk P.J., Cortical
           function mapping with intracranial EEG, in Quantitative EEG analysis
           methods and appListGroupItemcation, S. Tong and N.V. Thakor, Editors.
-          2009, Artech House: Norwood, MA. p. 369-399.{" "}
+          2009, Artech House: Norwood, MA. p. 369-399.{' '}
         </ListGroupItem>
         <ListGroupItem>
           Lesser RP, Crone NE, Webber WR. Subdural electrodes.
@@ -584,7 +633,7 @@ const Publications = () => {
         <ListGroupItem>
           Lesser RP, Crone NE, Webber WR. Using subdural electrodes to assess
           the safety of resections. Epilepsy & Behavior, 2010 Sep 27. [Epub
-          ahead of print].{" "}
+          ahead of print].{' '}
         </ListGroupItem>
         <ListGroupItem>
           Cervenka, M.C., Crone, N.E. Electrocorticographic spectral analysis,
@@ -678,11 +727,11 @@ const Publications = () => {
       </ListGroup>
 
       {/* <hr />
-      <div class="footer">
+      <div className="footer">
         <p>&copy; 2019, Johns Hopkins University</p>
       </div> */}
     </>
-  );
-};
+  )
+}
 
-export default Publications;
+export default Publications

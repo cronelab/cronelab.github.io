@@ -1,6 +1,6 @@
-import React from "react";
-import logo from "../Pictures/crone-logo.png";
-import { Image, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import React from 'react'
+import logo from '../Pictures/crone-logo.png'
+import { Image, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 const Navigation = () => {
   return (
     <>
@@ -44,10 +44,13 @@ const Navigation = () => {
             <Nav.Item>
               <Nav.Link href="contactus">Contact Us</Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="jobs">Job Openings</Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
     </>
-  );
-};
-export default Navigation;
+  )
+}
+export default Navigation

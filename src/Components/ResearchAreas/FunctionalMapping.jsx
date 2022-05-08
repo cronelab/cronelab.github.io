@@ -21,13 +21,13 @@ const FunctionalMapping = () => {
           </Col>
           <Col>
             <Image src={FMPic} fluid></Image>
-            <a href="http://www.webfm.io/" class="tab">
+            <a href="http://www.webfm.io/" className="tab">
               <strong>Click here for a demo</strong>
             </a>
           </Col>
         </Row>
         <Row>
-          <p class="tab">
+          <p className="tab">
             These stimuli may consist of written words, pictures of objects, or
             spoken words or parts of words. Although functional MRI and PET
             scanning can also provide a picture of which parts of the brain are
@@ -43,7 +43,7 @@ const FunctionalMapping = () => {
           </p>
           <br />
           <br />
-          <p class="tab">
+          <p className="tab">
             The immediate goal of this research is to provide more detailed
             brain maps of language in patients who are undergoing surgery for
             intractable epilepsy, vascular malformations, or brain tumors.

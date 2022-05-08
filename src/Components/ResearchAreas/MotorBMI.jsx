@@ -25,7 +25,7 @@ const MotorBMI = () => {
               patients to control complex prosthetic arms.
             </p>
           </Col>
-          <div class="col-md-8" style={{ "padding-bottom": "20px" }}>
+          <div className="col-md-8" style={{ "padding-bottom": "20px" }}>
             <Image src={Hybrid_BCI} fluid></Image>
           </div>
         </Row>
@@ -69,7 +69,7 @@ const MotorBMI = () => {
             used by two subjects to control reaching and grasping of the Modular
             Prosthetic Limb simultaneously.
           </Col>
-          <div class="col-md-12" style={{ paddingTop: "20px" }}>
+          <div className="col-md-12" style={{ paddingTop: "20px" }}>
             <Image src={MPL_Banner} fluid></Image>
           </div>
         </Row>

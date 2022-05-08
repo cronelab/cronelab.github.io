@@ -12,10 +12,11 @@ import SpeechBMI from './Components/ResearchAreas/SpeechBMI'
 import SPES from './Components/ResearchAreas/SPES'
 import ContactUs from './Components/ContactUs'
 import Photos from './Components/Photos'
+import JobOpenings from './Components/JobOpenings'
 import { Container } from 'react-bootstrap'
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route
 } from 'react-router-dom'
 import Navigation from './Components/Navigation'
@@ -25,46 +26,22 @@ function App() {
     <Router  basename={process.env.PUBLIC_URL}>
       <Container>
         <Navigation></Navigation>
-        <Switch>
-          <Route exact path="/">
-            <Main />
-          </Route>
-          <Route path="/people">
-            <People />
-          </Route>
+        <Routes >
+        <Route exact path="/" element={<Main/>}/>
+        <Route exact path="/people" element={<People/>}/>
+        <Route exact path="/publications" element={<Publications/>}/>
+        <Route exact path="/languageconnectivity" element={<LangaugeConnectivity/>}/>
+        <Route exact path="/seizureconnectivity" element={<SeizureConnectivity/>}/>
+        <Route exact path="/contactus" element={<ContactUs/>}/>
+        <Route exact path="/photos" element={<Photos/>}/>
+        <Route exact path="/spes" element={<SPES/>}/>
+        <Route exact path="/functionalmapping" element={<FunctionalMapping/>}/>
+        <Route exact path="/speechbmi" element={<SpeechBMI/>}/>
+        <Route exact path="/motorbmi" element={<MotorBMI/>}/>
+        <Route exact path="/epiwatch" element={<Epiwatch/>}/>
+        <Route exact path="/jobs" element={<JobOpenings/>}/>
 
-          <Route path="/publications">
-            <Publications />
-          </Route>
-
-          <Route path="/languageconnectivity">
-            <LangaugeConnectivity />
-          </Route>
-          <Route path="/seizureconnectivity">
-            <SeizureConnectivity />
-          </Route>
-          <Route path="/contactus">
-            <ContactUs/>
-          </Route>
-          <Route path="/photos">
-            <Photos/>
-          </Route>
-          <Route path="/spes">
-            <SPES />
-          </Route>
-          <Route path="/functionalmapping">
-            <FunctionalMapping />
-          </Route>
-          <Route path="/speechbmi">
-            <SpeechBMI />
-          </Route>
-          <Route path="/motorbmi">
-            <MotorBMI />
-          </Route>
-          <Route path="/epiwatch">
-            <Epiwatch />
-          </Route>
-        </Switch>
+        </Routes >
         <hr/>
         <Footer></Footer>
       </Container>
