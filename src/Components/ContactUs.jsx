@@ -1,8 +1,11 @@
-import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import LabPhoto from "../Pictures/LabPhotos/LabPhoto_2018_2.jpg";
-import "../../node_modules/font-awesome/css/font-awesome.css";
-const ContactUs = () => {
+import React from 'react';
+import {
+  Container, Row, Col, Image, Button,
+} from 'react-bootstrap';
+import LabPhoto from '../Pictures/LabPhotos/LabPhoto_2018_2.jpg';
+import 'font-awesome/css/font-awesome.css';
+
+function ContactUs() {
   return (
     <Container>
       <Row>
@@ -19,26 +22,27 @@ const ContactUs = () => {
 
           <h3>Contact Info</h3>
           <p>
-            Email:{" "}
+            Email:
+            {' '}
             <a href="mailto:croneecoglab@gmail.com">croneecoglab@gmail.com</a>
           </p>
 
-          <button onClick={() => (window.location.href = "https://www.youtube.com/channel/UCevJ45cwkk0yrDd6ol6HbKg")}>
-             <i style={{"fontSize":"48px","color":"red"}} className="fa fa-youtube-play"></i>
-          </button>
+          <Button onClick={() => (window.location.href = 'https://www.youtube.com/channel/UCevJ45cwkk0yrDd6ol6HbKg')}>
+            <i style={{ fontSize: '48px', color: 'red' }} className="fa fa-youtube-play" />
+          </Button>
 
-
-          <button onClick={() => (window.location.href = "https://github.com/cronelab")}>
-             <i style={{"fontSize":"48px"}} className="fa fa-github"></i>
-          </button>
+          <Button onClick={() => (window.location.href = 'https://github.com/cronelab')}>
+            <i style={{ fontSize: '48px' }} className="fa fa-github" />
+          </Button>
         </Col>
         <Col>
-          <Image src={LabPhoto} fluid style={{ paddingBottom: "15px" }}></Image>
+          <Image src={LabPhoto} fluid style={{ paddingBottom: '15px' }} />
         </Col>
       </Row>
       <div className="alert alert-info">
         <p>
-          For information about Dr. Crone's clinical practice, please visit{" "}
+          For information about Dr. Crone's clinical practice, please visit
+          {' '}
           <a href="http://www.hopkinsmedicine.org/profiles/results/directory/profile/0006037/nathan-crone">
             his page at Johns Hopkins Medicine
           </a>
@@ -47,6 +51,6 @@ const ContactUs = () => {
       </div>
     </Container>
   );
-};
+}
 
 export default ContactUs;

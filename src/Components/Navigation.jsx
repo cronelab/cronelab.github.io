@@ -1,10 +1,13 @@
-import React from 'react'
-import logo from '../Pictures/crone-logo.png'
-import { Image, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-const Navigation = () => {
+import React from 'react';
+import {
+  Image, Nav, Navbar, NavDropdown,
+} from 'react-bootstrap';
+import logo from '../Pictures/crone-logo.png';
+
+function Navigation() {
   return (
     <>
-      <Image src={logo}></Image>
+      <Image src={logo} />
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="/">Home</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -53,6 +56,6 @@ const Navigation = () => {
         </Navbar.Collapse>
       </Navbar>
     </>
-  )
+  );
 }
-export default Navigation
+export default Navigation;

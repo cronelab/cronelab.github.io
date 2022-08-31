@@ -1,41 +1,45 @@
-import React from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap'
-import '../css/bootstrap-social.css'
-import Crone from '../Pictures/People/Nathan.jpg'
+import React from 'react';
+import {
+  Container, Row, Col, Image,
+} from 'react-bootstrap';
+import '../css/bootstrap-social.css';
+import Crone from '../Pictures/People/Nathan.jpg';
 
-import Alex from '../Pictures/People/Staff/Alex.png'
-import Anna from '../Pictures/People/Staff/Anna.jpg'
-import Chris from '../Pictures/People/Staff/Chris.jpg'
-import Yujing from '../Pictures/People/Staff/Yujing.jpg'
-import Sam from '../Pictures/People/Staff/Sam.png'
-import Kevin from '../Pictures/People/Staff/Kevin.png'
-import Dan from '../Pictures/People/GradStudents/Dan.jpg'
-import Mark from '../Pictures/People/GradStudents/Mark.jpg'
-import Qinwan from '../Pictures/People/GradStudents/Qinwan.jpg'
-import Steve from '../Pictures/People/GradStudents/Steve.jpg'
-import Tessy from '../Pictures/People/GradStudents/Tessy.png'
-import Raphael from '../Pictures/People/GradStudents/Raphael.png'
+import Alex from '../Pictures/People/Staff/Alex.png';
+import Anna from '../Pictures/People/Staff/Anna.jpg';
+import Chris from '../Pictures/People/Staff/Chris.jpg';
+import Yujing from '../Pictures/People/Staff/Yujing.jpg';
+import Sam from '../Pictures/People/Staff/Sam.png';
+import Kevin from '../Pictures/People/Staff/Kevin.png';
+import Dan from '../Pictures/People/GradStudents/Dan.jpg';
+import Mark from '../Pictures/People/GradStudents/Mark.jpg';
+import Qinwan from '../Pictures/People/GradStudents/Qinwan.jpg';
+import Steve from '../Pictures/People/GradStudents/Steve.jpg';
+import Tessy from '../Pictures/People/GradStudents/Tessy.png';
+import Raphael from '../Pictures/People/GradStudents/Raphael.png';
 
-import Andrew from '../Pictures/People/Alumn/Andrew.jpg'
-import Michael from '../Pictures/People/Alumn/Michael.jpg'
-import Griff from '../Pictures/People/Alumn/Griff.jpg'
-import GuyHotson from '../Pictures/People/Alumn/GuyHotson.jpg'
-import HeatherBenz from '../Pictures/People/Alumn/HeatherBenz.jpg'
-import KyleRupp from '../Pictures/People/Alumn/KyleRupp.jpg'
-import MattFifer from '../Pictures/People/Alumn/MattFifer.jpg'
-import MaxCollard from '../Pictures/People/Alumn/MaxCollard.png'
-import Dave from '../Pictures/People/Alumn/Dave.jpg'
-import Miguel from '../Pictures/People/Staff/Miguel.jpeg'
+import Andrew from '../Pictures/People/Alumn/Andrew.jpg';
+import Michael from '../Pictures/People/Alumn/Michael.jpg';
+import Griff from '../Pictures/People/Alumn/Griff.jpg';
+import GuyHotson from '../Pictures/People/Alumn/GuyHotson.jpg';
+import HeatherBenz from '../Pictures/People/Alumn/HeatherBenz.jpg';
+import KyleRupp from '../Pictures/People/Alumn/KyleRupp.jpg';
+import MattFifer from '../Pictures/People/Alumn/MattFifer.jpg';
+import MaxCollard from '../Pictures/People/Alumn/MaxCollard.png';
+import Dave from '../Pictures/People/Alumn/Dave.jpg';
+import Miguel from '../Pictures/People/Staff/Miguel.jpeg';
 
-const People = () => {
+function People() {
   return (
     <Container fluid>
       <Row>
         <Col md={3}>
-          <Image src={Crone} thumbnail></Image>
+          <Image src={Crone} thumbnail />
         </Col>
         <Col md={9}>
-          <a href="mailto:ncrone@jhmi.edu">Nathan Crone, M.D.</a> is a Professor
+          <a href="mailto:ncrone@jhmi.edu">Nathan Crone, M.D.</a>
+          {' '}
+          is a Professor
           of Neurology and director of the Cognitive Neurophysiology and
           Brain-Machine Interface Laboratory. Dr. Crone leads a long-standing
           research program using intracranial EEG to study human brain
@@ -64,17 +68,19 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>
-              Daniel Candrea <small>M.S.</small>
+              Daniel Candrea
+              {' '}
+              <small>M.S.</small>
             </h3>
             <a
               href="mailto:tlal1@jhu.edu"
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -82,7 +88,7 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i>
+              <i className="fa fa-linkedin fa-fw" />
               LinkedIn
             </a>
             <p>
@@ -105,7 +111,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>Qinwan Rabbani</h3>
             <a
@@ -113,7 +119,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -121,7 +127,9 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i> LinkedIn
+              <i className="fa fa-linkedin fa-fw" />
+              {' '}
+              LinkedIn
             </a>
             <p>
               Qinwan is a Ph.D. student in Electrical Engineering interested in
@@ -147,7 +155,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>Mark Hays</h3>
             <a
@@ -155,7 +163,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <p>
@@ -165,7 +173,8 @@ const People = () => {
               models. He is currently working on mapping epileptogenic networks
               using single pulse electrical stimulation to characterize
               electrophysiological connectivity and build models of seizure
-              dynamics.{' '}
+              dynamics.
+              {' '}
             </p>
           </div>
         </Col>
@@ -179,7 +188,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>Shiyu Luo</h3>
             <a
@@ -187,7 +196,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -195,7 +204,9 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i> LinkedIn
+              <i className="fa fa-linkedin fa-fw" />
+              {' '}
+              LinkedIn
             </a>
             <p>
               Shiyu, who also goes by Steve, is pursuing a Ph.D. in Biomedical
@@ -221,11 +232,13 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
 
           <div className="caption">
             <h3>
-              Anna Korzeniewska <small>Ph.D.</small>
+              Anna Korzeniewska
+              {' '}
+              <small>Ph.D.</small>
             </h3>
             <h5>Assistant Professor</h5>
             <a
@@ -233,7 +246,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -241,7 +254,9 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i> LinkedIn
+              <i className="fa fa-linkedin fa-fw" />
+              {' '}
+              LinkedIn
             </a>
             <p>
               Anna Korzeniewska studies dynamics of cerebral functional and/or
@@ -265,10 +280,12 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>
-              Christopher Coogan <small>M.S.</small>
+              Christopher Coogan
+              {' '}
+              <small>M.S.</small>
             </h3>
             <h5>Software Engineer</h5>
             <a
@@ -276,7 +293,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -284,14 +301,18 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i> LinkedIn
+              <i className="fa fa-linkedin fa-fw" />
+              {' '}
+              LinkedIn
             </a>
             <a
               href="https://github.com/TheBrainChain/"
               title="Github"
               className="btn btn-github btn-sm"
             >
-              <i className="fa fa-github"></i> Github
+              <i className="fa fa-github" />
+              {' '}
+              Github
             </a>
 
             <p>
@@ -307,8 +328,8 @@ const People = () => {
             </p>
           </div>
         </Col>
-        </Row>
-        <Row>
+      </Row>
+      <Row>
         <Col>
           <Image
             src={Sam}
@@ -319,7 +340,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>Samyak Shah M.S.</h3>
             <h5>Research Assistant</h5>
@@ -329,7 +350,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -337,7 +358,9 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i> LinkedIn
+              <i className="fa fa-linkedin fa-fw" />
+              {' '}
+              LinkedIn
             </a>
             <p>
               Samyak's interests are in data science and machine learning
@@ -357,10 +380,12 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>
-              Yujing Wang <small>Ph.D.</small>
+              Yujing Wang
+              {' '}
+              <small>Ph.D.</small>
             </h3>
             <h5>Postdoc</h5>
             <a
@@ -368,7 +393,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -376,7 +401,7 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i>
+              <i className="fa fa-linkedin fa-fw" />
               LinkedIn
             </a>
             <p>
@@ -402,10 +427,12 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>
-              Alex Weiss <small>DPhil</small>
+              Alex Weiss
+              {' '}
+              <small>DPhil</small>
             </h3>
             <h5>Postdoc</h5>
 
@@ -414,7 +441,7 @@ const People = () => {
               className="btn btn-linkedin btn-sm"
               role="button"
             >
-              <span className="glyphicon glyphicon-envelope"></span>
+              <span className="glyphicon glyphicon-envelope" />
               Email
             </a>
             <a
@@ -422,7 +449,7 @@ const People = () => {
               title="LinkedIn"
               className="btn btn-linkedin btn-sm"
             >
-              <i className="fa fa-linkedin fa-fw"></i>
+              <i className="fa fa-linkedin fa-fw" />
               LinkedIn
             </a>
             <p>
@@ -451,7 +478,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>Kevin Nathan Ph.D.</h3>
             <h5>Postdoc</h5>
@@ -470,8 +497,8 @@ const People = () => {
           </div>
         </Col>
       </Row>
-            <Row>
-            <Col>
+      <Row>
+        <Col>
           <Image
             src={Miguel}
             roundedCircle
@@ -481,18 +508,18 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>Miguel Angrick Ph.D.</h3>
             <h5>Postdoc</h5>
 
             <p>
-            Miguel Angrick is a postdoctoral researcher and received his PhD from the University of Bremen, Germany. His research focuses on bridging Brain-Computer Interfaces and speech synthesis technologies to explore alternative communication modalities for people who have lost their ability to speak. He is interested in both offline experiments to generate high-quality audio signals and online experiments that enable real-time closed-loop speech synthesis.
+              Miguel Angrick is a postdoctoral researcher and received his PhD from the University of Bremen, Germany. His research focuses on bridging Brain-Computer Interfaces and speech synthesis technologies to explore alternative communication modalities for people who have lost their ability to speak. He is interested in both offline experiments to generate high-quality audio signals and online experiments that enable real-time closed-loop speech synthesis.
             </p>
           </div>
         </Col>
 
-            </Row>
+      </Row>
       <h2 style={{ textAlign: 'center' }}>Lab Alumni</h2>
       <br />
       <Row>
@@ -506,7 +533,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Raphael Bechtold</h3>
           <p>M.S. '21</p>
         </Col>
@@ -521,7 +548,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Tessy Thomas</h3>
           <p>Ph.D. '21</p>
         </Col>
@@ -537,7 +564,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <div className="caption">
             <h3>Andrew Masteller</h3>
             <p>M.S. '20</p>
@@ -553,7 +580,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Michael Chan</h3>
           <p>M.S. '19</p>
         </Col>
@@ -567,7 +594,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Griffin Milsap</h3>
           <p>Ph.D. '18</p>
         </Col>
@@ -583,7 +610,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Max Collard</h3>
           <p>B.S. '15</p>
         </Col>
@@ -597,7 +624,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Dave McMullen</h3>
           <p>M.D./Ph.D</p>
         </Col>
@@ -611,7 +638,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Guy Hotson</h3>
           <p>Ph.D. '16</p>
         </Col>
@@ -627,7 +654,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Kyle Rupp</h3>
           <p>Ph.D. '18</p>
         </Col>
@@ -641,7 +668,7 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Matt Fifer</h3>
           <p>Ph.D. '15</p>
         </Col>
@@ -655,16 +682,16 @@ const People = () => {
               height: '200px',
               float: 'left',
             }}
-          ></Image>
+          />
           <h3>Heather Benz</h3>
           <p>Ph.D. '15</p>
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
 
-export default People
+export default People;
 
 // <div className="container">
 // <h2>Collaborators</h2>

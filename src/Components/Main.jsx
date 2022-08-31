@@ -1,24 +1,24 @@
-import React, {useState} from 'react'
-import { Container, Carousel, Image, Row, Col, Button } from 'react-bootstrap'
-import labPhoto from '../Pictures/LabPhotos/LabPhoto_2020.png'
-import summaryPhoto from '../Pictures/Research/Connectivity2014SummaryImage.png'
-import Brocas from '../Pictures/Research/BrocasPaperImage.jpg'
-import Hybrid_BCI from '../Pictures/Research/Hybrid_BCI.png'
-import BehavioralPriming from '../Pictures/Research/BehavioralPriming.png'
-import ERC_Naming from '../Pictures/Research/ERC_Naming.png'
-import ERC_Naming2 from '../Pictures/Research/ERC_Naming2.jpg'
+import React, { useState } from 'react';
+import {
+  Container, Carousel, Image, Row, Col, Button,
+} from 'react-bootstrap';
+import labPhoto from '../Pictures/LabPhotos/LabPhoto_2020.png';
+import Brocas from '../Pictures/Research/BrocasPaperImage.jpg';
+import Hybrid_BCI from '../Pictures/Research/Hybrid_BCI.png';
+import ERC_Naming from '../Pictures/Research/ERC_Naming.png';
+import ERC_Naming2 from '../Pictures/Research/ERC_Naming2.jpg';
 
-const Main = () => {
-    const [index, setIndex] = useState(0);
-  
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
+function Main() {
+  const [index, setIndex] = useState(0);
+
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
 
   return (
     <Container>
       <div className="mt-4 p-5 bg-secondary text-white rounded">
-        <Image fluid src={labPhoto}></Image>
+        <Image fluid src={labPhoto} />
         <p>
           Under the direction of Dr. Nathan Crone, the JHU Cognitive
           Neurophysiology and BMI Lab is working to identify and validate
@@ -79,22 +79,26 @@ const Main = () => {
         <Col>
           <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-              <Image fluid src={ERC_Naming}></Image>
+              <Image fluid src={ERC_Naming} />
             </Carousel.Item>
             <Carousel.Item>
-              <Image fluid src={ERC_Naming2}></Image>
+              <Image fluid src={ERC_Naming2} />
             </Carousel.Item>
           </Carousel>
-          {index==0 ? <p>
-              "Results of event-related causality (ERC) estimated with 2D moving average of window size 7x7 time-frequency points, averaged across all patients. 
-            Naming of unambiguous objects (top panel), ambiguous objects (middle panel), and naming to auditory description (bottom panel). The task interval starting 
-            at stimulus onset and ending at speech onset is divided in half with the first half in the left column and the second half in the right column. Both width 
-            and color (thin-yellow: weak; thick-red: strong) of arrows represent intensity of high-gamma activity propagation, using a single colorscale across all plots.
-             Linear arrows: propagation between regions of interest (ROIs, Ghosh et al., 2010). Circular arrows: propagation within ROIs. Top 90% of propagations depicted
+          {index === 0 ? (
+            <p>
+              "Results of event-related causality (ERC) estimated with 2D moving average of window size 7x7 time-frequency points, averaged across all patients.
+              Naming of unambiguous objects (top panel), ambiguous objects (middle panel), and naming to auditory description (bottom panel). The task interval starting
+              at stimulus onset and ending at speech onset is divided in half with the first half in the left column and the second half in the right column. Both width
+              and color (thin-yellow: weak; thick-red: strong) of arrows represent intensity of high-gamma activity propagation, using a single colorscale across all plots.
+              Linear arrows: propagation between regions of interest (ROIs, Ghosh et al., 2010). Circular arrows: propagation within ROIs. Top 90% of propagations depicted
               to reduce complexity of the figure."
-              </p> : <p>
+            </p>
+          ) : (
+            <p>
               "An example of performance of a bivariate smoothing model, dependently on the number of data-points included in 2D moving average (window size), for ERC containing 20 channels (K=20) recorded during naming of ambiguous objects. Top panel shows results in patient #8. Top-left: the difference between the ERC values and the values of 2D moving average. Top-middle; confidence interval. Top-right: the criterion for model selection. X and Y axes represent window size by distances from the center-point of the window of 2D moving average, in time-points and frequency-points accordingly. Colorscale (min-max) at the right. Bottom panel shows the criterion for model selection averaged over all patients (bottom-left) and their projections on time-plane (bottom-middle), and on frequency-plane (bottom-right)."
-                </p>}
+            </p>
+          )}
         </Col>
       </Row>
 
@@ -113,7 +117,8 @@ const Main = () => {
             reach-grasp-and-drop of the object by the JHU/APL Modular Prosthetic
             Limb MPL. The novel approach demonstrated in this proof-of-principle
             study, using hybrid input, supervisory control, and intelligent
-            robotics, addresses limitations of current BMIs.{' '}
+            robotics, addresses limitations of current BMIs.
+            {' '}
           </p>
           <Button
             href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036&tag=1"
@@ -129,7 +134,7 @@ const Main = () => {
           </Button>
         </Col>
         <Col>
-          <Image fluid src={Hybrid_BCI}></Image>
+          <Image fluid src={Hybrid_BCI} />
         </Col>
       </Row>
       <hr className="featurette-divider" />
@@ -162,11 +167,11 @@ const Main = () => {
           </Button>
         </Col>
         <Col>
-          <Image fluid src={Brocas}></Image>
+          <Image fluid src={Brocas} />
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
 
-export default Main
+export default Main;

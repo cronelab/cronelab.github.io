@@ -1,20 +1,18 @@
-import React from 'react'
+import React from 'react';
 import {
   Container,
-  Row,
-  Col,
-  Image,
+
   ListGroup,
   ListGroupItem,
-} from 'react-bootstrap'
-import LabPhoto from '../Pictures/LabPhotos/LabPhoto_2018_2.jpg'
-import '../../node_modules/font-awesome/css/font-awesome.css'
-const ContactUs = () => {
+} from 'react-bootstrap';
+import 'font-awesome/css/font-awesome.css';
+
+function JobOpenings() {
   return (
     <Container>
       <ListGroup>
-          <p><b>May, 2022 </b></p>
-          <p><b>Post-doc</b></p>
+        <p><b>May, 2022 </b></p>
+        <p><b>Post-doc</b></p>
         <ListGroupItem>
           The Crone Lab has an open position for post-doctoral research fellow
           in human functional brain mapping using intracranial EEG. The post-doc
@@ -39,14 +37,35 @@ const ContactUs = () => {
           programming, human electrophysiology, statistics, machine learning,
           and scientific writing, including a track-record of peer-reviewed
           publication. Proficiency in oral and written English is mandatory.
-          Interested individuals should send an email to <a href = "mailto: ncrone@jhmi.edu">ncrone@jhmi.edu</a>
- ,
+          Interested individuals should send an email to
+          {' '}
+          <a href="mailto: ncrone@jhmi.edu">ncrone@jhmi.edu</a>
+          ,
           including a cover letter describing research experience and
           qualifications, academic CV, and contact information for references.
         </ListGroupItem>
       </ListGroup>
+      <ListGroup>
+        <p><b>September, 2022 </b></p>
+        <p><b>Software Engineer</b></p>
+        <ListGroupItem>
+
+          The CRONELAB is looking for a Software Engineer with a passion for neuroscience related fields to work in a fast-paced scientific environment to develop, maintain and improve software infrastructure that supports real-time neural signal acquisition and processing for human brain mapping, cognitive neuroscience, and brain-computer interface experiments. You will leverage your software engineering skills to solve real-world problems that have a direct impact on scientific advances, and help shape various architecture components, their requirements and the general design of our lab infrastructure.
+          Interested individuals should send an email to
+          {' '}
+          <a href="mailto: ncrone@jhmi.edu">ncrone@jhmi.edu</a>
+          ,
+          including a cover letter describing research experience and
+          qualifications, academic CV, and contact information for references.
+          Additionally, please see the official job posting
+          {' '}
+          <a href="https://jobs.jhu.edu/job/Baltimore-Software-Engineer-MD-21287/923537100/">here</a>
+          .
+        </ListGroupItem>
+      </ListGroup>
+
     </Container>
-  )
+  );
 }
 
-export default ContactUs
+export default JobOpenings;
