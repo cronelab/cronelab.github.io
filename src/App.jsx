@@ -1,24 +1,24 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "./Components/Main";
-import "./css/styles.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import People from "./Components/People";
-import Publications from "./Components/Publications";
-import LangaugeConnectivity from "./Components/ResearchAreas/LanguageConnectivity";
-import FunctionalMapping from "./Components/ResearchAreas/FunctionalMapping";
-import Epiwatch from "./Components/ResearchAreas/Epiwatch";
-import MotorBMI from "./Components/ResearchAreas/MotorBMI";
-import SeizureConnectivity from "./Components/ResearchAreas/SeizureConnectivity";
-import SpeechBMI from "./Components/ResearchAreas/SpeechBMI";
-import SPES from "./Components/ResearchAreas/SPES";
-import ContactUs from "./Components/ContactUs";
-import Photos from "./Components/Photos";
-import JobOpenings from "./Components/JobOpenings";
-import Navigation from "./Components/Navigation";
-import Footer from "./Components/Footer";
-import SpeechTestFlyer from "./Components/SpeechTestFlyer";
+import React from 'react';
+import { Container } from 'react-bootstrap';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Main from './Components/Main';
+import './css/styles.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import People from './Components/People';
+import Publications from './Components/Publications';
+import LangaugeConnectivity from './Components/ResearchAreas/LanguageConnectivity';
+import FunctionalMapping from './Components/ResearchAreas/FunctionalMapping';
+import Epiwatch from './Components/ResearchAreas/Epiwatch';
+import MotorBMI from './Components/ResearchAreas/MotorBMI';
+import SeizureConnectivity from './Components/ResearchAreas/SeizureConnectivity';
+import SpeechBMI from './Components/ResearchAreas/SpeechBMI';
+import SPES from './Components/ResearchAreas/SPES';
+import ContactUs from './Components/ContactUs';
+import Photos from './Components/Photos';
+import JobOpenings from './Components/JobOpenings';
+import Navigation from './Components/Navigation';
+import Footer from './Components/Footer';
+import SpeechTestFlyer from './Components/SpeechTestFlyer';
 
 function App() {
   return (
