@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.966d00a3.css",
-    "main.js": "/static/js/main.bf73d29f.js",
+    "main.js": "/static/js/main.3ba669e9.js",
     "static/media/LabPhoto_2020.png": "/static/media/LabPhoto_2020.addaadd6465de019cf4d.png",
     "static/media/Mark.jpg": "/static/media/Mark.182b5f039757780b2096.jpg",
     "static/media/LabPhoto_2018_2.jpg": "/static/media/LabPhoto_2018_2.8f06f0a147351eff5fd3.jpg",
@@ -32,6 +32,7 @@
     "static/media/FunctionalMapping.png": "/static/media/FunctionalMapping.8ecfb59bc521ed6b33e2.png",
     "static/media/Qinwan.jpg": "/static/media/Qinwan.0ef3f37dc680343d21f8.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/corticom-intelligibility-test.pdf": "/static/media/corticom-intelligibility-test.7bdb2a8a84bd6ce191ce.pdf",
     "static/media/Raphael.png": "/static/media/Raphael.9aa6337c9df1364c3d59.png",
     "static/media/Chris.jpg": "/static/media/Chris.1b1b5c370abe4bd18ba5.jpg",
     "static/media/Kevin.png": "/static/media/Kevin.50dc4812871bf20f8fb5.png",
@@ -53,10 +54,10 @@
     "static/media/KyleRupp.jpg": "/static/media/KyleRupp.2f63bfb0f5a5e5f8be8c.jpg",
     "index.html": "/index.html",
     "main.966d00a3.css.map": "/static/css/main.966d00a3.css.map",
-    "main.bf73d29f.js.map": "/static/js/main.bf73d29f.js.map"
+    "main.3ba669e9.js.map": "/static/js/main.3ba669e9.js.map"
   },
   "entrypoints": [
     "static/css/main.966d00a3.css",
-    "static/js/main.bf73d29f.js"
+    "static/js/main.3ba669e9.js"
   ]
 }
