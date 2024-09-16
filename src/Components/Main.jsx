@@ -88,7 +88,7 @@ function Main() {
         We used these metrics to train machine learning classifiers to predict
         which nodes would be critical to language and speech. Example data (C–E)
         are provided from a single participant (n = 1) for each visualization.
-        Source data are provided as a Source Data file
+        Source data are provided as a Source Data file.
         <Col>
           <Carousel
             interval={null}
@@ -111,6 +111,7 @@ function Main() {
               <Image fluid src={CorticalSites5} />
             </Carousel.Item>
           </Carousel>
+
           {index1 === 0 && (
             <p>
               "A DES was used either intraoperatively (depicted) or in the
@@ -139,9 +140,10 @@ function Main() {
               learning classifiers to predict which nodes would be critical to
               language and speech. Example data (C–E) are provided from a single
               participant (n = 1) for each visualization. Source data are
-              provided as a Source Data file. "
+              provided as a Source Data file."
             </p>
           )}
+
           {index1 === 1 && (
             <p>
               "PC participation coefficient, S strength, CC clustering
@@ -168,6 +170,7 @@ function Main() {
               {' '}
             </p>
           )}
+
           {index1 === 2 && (
             <p>
               "PC participation coefficient, S strength, CC clustering
@@ -231,6 +234,7 @@ function Main() {
               {' '}
             </p>
           )}
+
           {index1 === 4 && (
             <p>
               "For within-participant classification, participants with at least
@@ -288,16 +292,7 @@ function Main() {
             significance in two-dimensional space, and can analyze much longer
             time series. We also propose a criterion for statistical model
             selection, based on both goodness of fit and width of confidence
-            intervals. Using ERC with 2D moving average to study naming under
-            conditions in which perceptual modality and ambiguity were
-            contrasted, we observed new patterns of task-related neural
-            propagation that were nevertheless consistent with expectations
-            derived from previous studies of naming. ERC with 2D moving average
-            is uniquely suitable to both research and clinical applications and
-            can be used to estimate the statistical significance of neural
-            propagation for both cognitive neuroscientific studies and
-            functional brain mapping prior to resective surgery for epilepsy and
-            brain tumors.
+            intervals.
           </p>
           <Button
             href="https://www.sciencedirect.com/science/article/pii/S0893608022000351"
@@ -319,6 +314,7 @@ function Main() {
               <Image fluid src={ERC_Naming2} />
             </Carousel.Item>
           </Carousel>
+
           {index2 === 0 ? (
             <p>
               "Results of event-related causality (ERC) estimated with 2D moving
@@ -352,75 +348,6 @@ function Main() {
               (bottom-middle), and on frequency-plane (bottom-right)."
             </p>
           )}
-        </Col>
-      </Row>
-
-      <hr className="featurette-divider" />
-      <Row>
-        <Col>
-          <h2 className="featurette-heading">
-            Semi-Autonomous iEEG Brain-Machine Interfaces
-          </h2>
-          <p>
-            We developed a novel system, the Hybrid Augmented Reality Multimodal
-            Operation Neural Integration Environment (HARMONIE). This system
-            utilizes hybrid input, supervisory control, and intelligent robotics
-            to allow users to identify an object (via eye tracking and computer
-            vision) and initiate (via brain-control) a semi-autonomous
-            reach-grasp-and-drop of the object by the JHU/APL Modular Prosthetic
-            Limb MPL. The novel approach demonstrated in this proof-of-principle
-            study, using hybrid input, supervisory control, and intelligent
-            robotics, addresses limitations of current BMIs.
-            {' '}
-          </p>
-          <Button
-            href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036&tag=1"
-            target="_blank"
-          >
-            Full Text
-          </Button>
-          <Button
-            href="https://ieeexplore.ieee.org/document/6683036/media#media"
-            target="_blank"
-          >
-            Videos
-          </Button>
-        </Col>
-        <Col>
-          <Image fluid src={Hybrid_BCI} />
-        </Col>
-      </Row>
-      <hr className="featurette-divider" />
-
-      <Row>
-        <Col>
-          <h2 className="featurette-heading">Redefining Broca's Area</h2>
-          <p>
-            During the cued production of words, a temporal cascade of neural
-            activity proceeds from sensory representations of words in the
-            temporal cortex to their corresponding articulatory gestures in the
-            motor cortex. Broca's area mediates this cascade through reciprocal
-            interactions with temporal and frontal motor regions. Contrary to
-            classNameic notions of the role of Broca's area in speech, while the
-            motor cortex is activated during spoken responses, Broca's area is
-            surprisingly silent. Moreover, when novel strings of articulatory
-            gestures must be produced in response to nonword stimuli, neural
-            activity is enhanced in Broca's area, but not in the motor cortex.
-            These unique data provide evidence that Broca's area coordinates the
-            transformation of information across large-scale cortical networks
-            involved in spoken word production. In this role, Broca's area
-            formulates an appropriate articulatory code to be implemented by the
-            motor cortex.
-          </p>
-          <Button
-            href="http://www.pnas.org/content/112/9/2871.short"
-            target="_blank"
-          >
-            Full Text
-          </Button>
-        </Col>
-        <Col>
-          <Image fluid src={Brocas} />
         </Col>
       </Row>
     </Container>
