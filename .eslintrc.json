@@ -1,29 +1,24 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
-    },
-    "ignorePatterns": ["*.css", "*.png","*.jpg"],
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb"
-    ],
-    "overrides": [
-    ],
-    "parserOptions": {
-        "ecmaVersion": "latest",
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-        "no-return-assign":"off",
-        "react/no-unescaped-entities": "off",
-        "max-len": "off",
-        "camelcase": "off"
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "ignorePatterns": ["*.css", "*.png", "*.jpg"],
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
     }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-return-assign": "off",
+    "react/no-unescaped-entities": "off",
+    "max-len": "off",
+    "camelcase": "off",
+    "linebreak-style": 0
+  }
 }

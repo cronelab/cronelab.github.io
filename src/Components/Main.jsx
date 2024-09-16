@@ -14,10 +14,16 @@ import CorticalSites4 from '../Pictures/Research/CorticalSites4.jpg';
 import CorticalSites5 from '../Pictures/Research/CorticalSites5.jpg';
 
 function Main() {
-  const [index, setIndex] = useState(0);
+  const [index1, setIndex1] = useState(0);
 
-  const handleSelect = (selectedIndex) => {
-    setIndex(selectedIndex);
+  const handleSelect1 = (selectedIndex) => {
+    setIndex1(selectedIndex);
+  };
+
+  const [index2, setIndex2] = useState(0);
+
+  const handleSelect2 = (selectedIndex) => {
+    setIndex2(selectedIndex);
   };
 
   return (
@@ -69,7 +75,11 @@ function Main() {
           </Button>
         </Col>
         <Col>
-          <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
+          <Carousel
+            interval={null}
+            activeIndex={index1}
+            onSelect={handleSelect1}
+          >
             <Carousel.Item>
               <Image fluid src={CorticalSites1} />
             </Carousel.Item>
@@ -86,7 +96,7 @@ function Main() {
               <Image fluid src={CorticalSites5} />
             </Carousel.Item>
           </Carousel>
-          {index === 0 ? (
+          {index1 === 0 && (
             <p>
               "A DES was used either intraoperatively (depicted) or in the
               epilepsy monitoring unit to identify sites critical to language
@@ -113,24 +123,119 @@ function Main() {
               interquartile range. We used these metrics to train machine
               learning classifiers to predict which nodes would be critical to
               language and speech. Example data (C–E) are provided from a single
-              participant (n = 1) for each visualization. Source data are
+              participant (n = 1) for each visualization. Source data are
               provided as a Source Data file."
             </p>
-          ) : (
+          )}
+          {index1 === 1 && (
             <p>
-              "An example of performance of a bivariate smoothing model,
-              dependently on the number of data-points included in 2D moving
-              average (window size), for ERC containing 20 channels (K=20)
-              recorded during naming of ambiguous objects. Top panel shows
-              results in patient #8. Top-left: the difference between the ERC
-              values and the values of 2D moving average. Top-middle; confidence
-              interval. Top-right: the criterion for model selection. X and Y
-              axes represent window size by distances from the center-point of
-              the window of 2D moving average, in time-points and
-              frequency-points accordingly. Colorscale (min-max) at the right.
-              Bottom panel shows the criterion for model selection averaged over
-              all patients (bottom-left) and their projections on time-plane
-              (bottom-middle), and on frequency-plane (bottom-right)."
+              "PC participation coefficient, S strength, CC clustering
+              coefficient, LEff local efficiency, EC eigenvector centrality. A
+              Diagram illustrating coassignment. Two yellow-outlined coassigned
+              nodes are found within the same community (dark blue fill); two
+              blue-outlined nodes are found in two different communities
+              (magenta and orange fill)—i.e., not coassigned. B Diagram
+              demonstrating graph metrics. The large magenta node in the top
+              panel has a high PC—it connects across all communities in this
+              network. The same node has a low clustering coefficient (its
+              neighbors are not themselves connected, denoted by dashed arrows)
+              and low local efficiency (long path lengths between its
+              neighbors). In the bottom panel, the large dark blue node has high
+              strength, i.e., a high sum of connection weights. The large orange
+              node has higher eigenvector centrality than the smaller orange
+              node; both have the same number of connections, but the larger
+              node’s connections themselves have more connections. C Intuition
+              for three node types. Connector nodes connect across communities
+              (high PC), while their neighbors do not connect as closely to each
+              other (low CC, LEff). Global hubs connect to many nodes across the
+              network (high PC, high S, likely high EC). Local hubs connect
+              densely in their neighborhood (low PC, high CC/LEff)."
+            </p>
+          )}
+          {index1 === 2 && (
+            <p>
+              "PC participation coefficient, S strength, CC clustering
+              coefficient, LEff local efficiency, EC eigenvector centrality. A
+              Composite of all participants’ electrodes colocalized on a single
+              template brain. Speech arrest nodes (yellow fill) were primarily
+              located in ventral premotor regions, but also in ventrolateral
+              prefrontal and ventral temporal regions. Language error nodes
+              (blue fill) were widely distributed in perisylvian regions. B
+              Three example participant brain reconstructions. Node color
+              (filled) represents community assignment, and node size is
+              proportional to its participation coefficient. The outline color
+              indicates critical nodes (blue—LE node, yellow—SA node). C
+              Corresponding three network diagrams. The electrode position is
+              spring-weighted (stronger connections draw electrodes closer
+              together). Fill color indicates community, and if present, outline
+              color indicates critical node type (LE vs. SA) D Corresponding
+              network metrics for the three example patients. Metrics for all
+              nodes (electrodes) for each of the three participants (n = 1 per
+              graph) are plotted. Here, colored circles represent critical
+              nodes; gray circles represent other nodes. Boxes demonstrate
+              median and interquartile range, and whiskers demonstrate
+              non-outlier maxima/minima. Source data are provided as a Source
+              Data file."
+              {' '}
+            </p>
+          )}
+          {index1 === 3 && (
+            <p>
+              "PC participation coefficient, S strength, CC clustering
+              coefficient, LEff local efficiency, EC eigenvector centrality. *p
+              &lt; 0.05. **p &lt; 0.01. ***p &lt; 0.001 (FDR-corrected). A
+              Histogram of the number of communities per participant (n = 16). B
+              Coassignment percentages vs. chance. Coassignment is calculated as
+              the mean % of critical, LE, or SA node pairs per participant
+              sharing a community. Empiric chance was calculated based on 1000
+              random shuffles of community assignment per participant, presented
+              as mean coassignment% per participant with bars indicating
+              standard error of mean (n = 16 for Critical, n = 15 for LE and
+              SA). Critical nodes, language error nodes, and speech arrest nodes
+              were significantly more likely to coassign in the same communities
+              than chance (p &lt; 0.001 for all, one-tailed estimate against
+              empiric chance). Language error and speech arrest nodes were not
+              more likely to be found in the same community as each other
+              compared to chance (35.2 vs. 30.4%, p = 0.112, one-tailed estimate
+              against empiric chance). C Network metrics for critical vs. all
+              other nodes (150 critical nodes, 1084 non-critical nodes).
+              Critical nodes have higher PC and lower CC, LEff, and EC than
+              other nodes. D Network metrics for LE, SA, and other nodes (92
+              language error nodes, 52 speech arrest nodes, 1084 non-critical
+              nodes). LE nodes have markedly higher PC than SA and other nodes.
+              C, D Metrics were z-scored for each subject prior to pooling all
+              nodes together. All nodes are plotted in light gray; mean values
+              per participant in larger, bolder colors. Boxes indicate the
+              median and IQR, and notch indicates the standard error of the
+              median. Statistical testing is based on a two-sided two-sample
+              t-test on z-scored metrics across all pooled nodes with FDR
+              correction. For additional details, refer to Table 1. Source data
+              are provided as a Source Data file."
+            </p>
+          )}
+          {index1 === 4 && (
+            <p>
+              "For within-participant classification, participants with at least
+              four nodes of the relevant class were included; for critical
+              nodes, LE nodes, and SA nodes, n = 15, 10, and 8, respectively.
+              For across-participant classification, participants with at least
+              one node of the relevant class were included—for critical nodes,
+              LE nodes, and SA nodes, n = 16, 13, and 13, respectively. A–D Each
+              dot represents average classification balanced accuracy or
+              sensitivity for a single participant. Box plots show median and
+              IQR across participants and are derived from a single value per
+              participant. Whiskers indicate a non-outlier maximum range. True
+              balanced accuracy and sensitivity were compared against empirical
+              chance calculated by label-shuffling. The average chance
+              classification accuracy per participant is represented by the
+              chance box plots for SVN and KNN (one value per participant). Data
+              for SVM, KNN, and chance for SVM and KNN are presented in
+              different colors as indicated by the legend. E, F ROC curves
+              presented for SVM (solid lines) and KNN (dashed lines)
+              classifiers, when classifying SA (orange), LE (magenta), and
+              critical (dark blue) nodes separately, as indicated by the legend.
+              For further details, refer to Tables 2, 3. Source data are
+              provided as a Source Data file."
             </p>
           )}
         </Col>
@@ -183,7 +288,11 @@ function Main() {
           </Button>
         </Col>
         <Col>
-          <Carousel interval={null} activeIndex={index} onSelect={handleSelect}>
+          <Carousel
+            interval={null}
+            activeIndex={index2}
+            onSelect={handleSelect2}
+          >
             <Carousel.Item>
               <Image fluid src={ERC_Naming} />
             </Carousel.Item>
@@ -191,7 +300,7 @@ function Main() {
               <Image fluid src={ERC_Naming2} />
             </Carousel.Item>
           </Carousel>
-          {index === 0 ? (
+          {index2 === 0 ? (
             <p>
               "Results of event-related causality (ERC) estimated with 2D moving
               average of window size 7x7 time-frequency points, averaged across
