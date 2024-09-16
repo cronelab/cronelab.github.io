@@ -6,26 +6,55 @@ function Publications() {
     <>
       <h3>Journal Publications</h3>
       <ListGroup>
-
         <ListGroupItem>
-          Jason K. Hsieh, Prashanth R. Prakash, Robert D. Flint, Zachary Fitzgerald, Emily Mugler, Yujing Wang, Nathan E. Crone, Jessica W. Templer, Joshua M. Rosenow, Matthew C. Tate, Richard Betzel & Marc W. Slutzky. Cortical sites critical to language function act as connectors between language subnetworks. Nat Commun 15, 7897 (2024)
+          Jason K. Hsieh, Prashanth R. Prakash, Robert D. Flint, Zachary
+          Fitzgerald, Emily Mugler, Yujing Wang, Nathan E. Crone, Jessica W.
+          Templer, Joshua M. Rosenow, Matthew C. Tate, Richard Betzel & Marc W.
+          Slutzky. Cortical sites critical to language function act as
+          connectors between language subnetworks. Nat Commun 15, 7897 (2024)
         </ListGroupItem>
 
         <ListGroupItem>
-          Angrick, M., Luo, S., Rabbani, Q., Candrea, D. N., Shah, S., Milsap, G. W., Anderson, W. S., Gordon, C. R., Rosenblatt, K. R., Clawson, L., Tippett, D. C., Maragakis, N., Tenore, F. V., Fifer, M. S., Hermansky, H., Ramsey, N. F., & Crone, N. E. (2024). Online speech synthesis using a chronically implanted brain–computer interface in an individual with ALS. Scientific Reports, 14(1), 9617.
+          Angrick, M., Luo, S., Rabbani, Q., Candrea, D. N., Shah, S., Milsap,
+          G. W., Anderson, W. S., Gordon, C. R., Rosenblatt, K. R., Clawson, L.,
+          Tippett, D. C., Maragakis, N., Tenore, F. V., Fifer, M. S., Hermansky,
+          H., Ramsey, N. F., & Crone, N. E. (2024). Online speech synthesis
+          using a chronically implanted brain–computer interface in an
+          individual with ALS. Scientific Reports, 14(1), 9617.
         </ListGroupItem>
         <ListGroupItem>
-          Wyse-Sookoo, K., Luo, S., Candrea, D., Schippers, A., Tippett, D. C., Wester, B., Fifer, M., Vansteensel, M. J., Ramsey, N. F., & Crone, N. E. (2024). Stability of ECoG high gamma signals during speech and implications for a speech BCI system in an individual with ALS: A year-long longitudinal study. Journal of Neural Engineering, 21(4), 046016.
+          Wyse-Sookoo, K., Luo, S., Candrea, D., Schippers, A., Tippett, D. C.,
+          Wester, B., Fifer, M., Vansteensel, M. J., Ramsey, N. F., & Crone, N.
+          E. (2024). Stability of ECoG high gamma signals during speech and
+          implications for a speech BCI system in an individual with ALS: A
+          year-long longitudinal study. Journal of Neural Engineering, 21(4),
+          046016.
         </ListGroupItem>
 
         <ListGroupItem>
-          Vansteensel, M. J., Leinders, S., Branco, M. P., Crone, N. E., Denison, T., Freudenburg, Z. V., Geukes, S. H., Gosselaar, P. H., Raemaekers, M., Schippers, A., Verberne, M., Aarnoutse, E. J., & Ramsey, N. F. (2024). Longevity of a Brain–Computer Interface for Amyotrophic Lateral Sclerosis. New England Journal of Medicine, 391(7), 619–626.
-        </ListGroupItem>
-        <ListGroupItem>
-          Luo, S., Angrick, M., Coogan, C., Candrea, D. N., Wyse-Sookoo, K., Shah, S., Rabbani, Q., Milsap, G. W., Weiss, A. R., Anderson, W. S., Tippett, D. C., Maragakis, N. J., Clawson, L. L., Vansteensel, M. J., Wester, B. A., Tenore, F. V., Hermansky, H., Fifer, M. S., Ramsey, N. F., & Crone, N. E. (2023). Stable Decoding from a Speech BCI Enables Control for an Individual with ALS without Recalibration for 3 Months. Advanced Science, 10(35), 2304853.
+          Vansteensel, M. J., Leinders, S., Branco, M. P., Crone, N. E.,
+          Denison, T., Freudenburg, Z. V., Geukes, S. H., Gosselaar, P. H.,
+          Raemaekers, M., Schippers, A., Verberne, M., Aarnoutse, E. J., &
+          Ramsey, N. F. (2024). Longevity of a Brain–Computer Interface for
+          Amyotrophic Lateral Sclerosis. New England Journal of Medicine,
+          391(7), 619–626.
         </ListGroupItem>
 
-        <ListGroupItem>Luo S, Rabbani Q, Crone NE. Brain-Computer Interface: Applications to Speech Decoding and Synthesis to Augment Communication. Neurotherapeutics 2022; 1-11</ListGroupItem>
+        <ListGroupItem>
+          Luo, S., Angrick, M., Coogan, C., Candrea, D. N., Wyse-Sookoo, K.,
+          Shah, S., Rabbani, Q., Milsap, G. W., Weiss, A. R., Anderson, W. S.,
+          Tippett, D. C., Maragakis, N. J., Clawson, L. L., Vansteensel, M. J.,
+          Wester, B. A., Tenore, F. V., Hermansky, H., Fifer, M. S., Ramsey, N.
+          F., & Crone, N. E. (2023). Stable Decoding from a Speech BCI Enables
+          Control for an Individual with ALS without Recalibration for 3 Months.
+          Advanced Science, 10(35), 2304853.
+        </ListGroupItem>
+
+        <ListGroupItem>
+          Luo S, Rabbani Q, Crone NE. Brain-Computer Interface: Applications to
+          Speech Decoding and Synthesis to Augment Communication.
+          Neurotherapeutics 2022; 1-11
+        </ListGroupItem>
         <ListGroupItem>
           Meeker TJ, Emerson N, Chien JH, Saffer MI, Bienvenu OJ, Korzeniewska
           A, Greenspan JD, Lenz FA. During Vigilance to Painful Stimuli: Slower
