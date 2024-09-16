@@ -86,15 +86,53 @@ function Main() {
               <Image fluid src={CorticalSites5} />
             </Carousel.Item>
           </Carousel>
-          {/* {index === 0 ? (
+          {index === 0 ? (
             <p>
-              "A DES was used either intraoperatively (depicted) or in the epilepsy monitoring unit to identify sites critical to language and speech. These were subdivided into cortical regions causing language errors (LE) or speech arrest (SA). B We recorded continuous ECoG while participants engaged in a word-reading task. C We generated one static network for each participant using pairwise high-gamma correlations. Color-coded adjacency matrix shown; the color in position (m,n) reflects to the high-gamma correlation between electrode m and n. r is the Fisher-transformed Pearson correlation. Community partitions were discovered using modularity maximization. Electrodes have been re-ordered so those belonging to the same community are adjacent (boundaries shown in black lines). D Spring-loaded network plot; nodes (circles) that are more strongly connected are drawn more closely together. The size of each node is proportional to its strength. Community membership is indicated by the fill color of each node. The nodes outlined in blue are LE nodes. E Network metrics were calculated—PC (participation coefficient), strength, CC (clustering coefficient), LE (local efficiency), and EC (eigenvector centrality). Metric values for every node are plotted; large colored points represent critical nodes and small gray points are all other nodes. Boxes demonstrate the median and interquartile range. We used these metrics to train machine learning classifiers to predict which nodes would be critical to language and speech. Example data (C–E) are provided from a single participant (n = 1) for each visualization. Source data are provided as a Source Data file."
+              "A DES was used either intraoperatively (depicted) or in the
+              epilepsy monitoring unit to identify sites critical to language
+              and speech. These were subdivided into cortical regions causing
+              language errors (LE) or speech arrest (SA). B We recorded
+              continuous ECoG while participants engaged in a word-reading task.
+              C We generated one static network for each participant using
+              pairwise high-gamma correlations. Color-coded adjacency matrix
+              shown; the color in position (m,n) reflects to the high-gamma
+              correlation between electrode m and n. r is the Fisher-transformed
+              Pearson correlation. Community partitions were discovered using
+              modularity maximization. Electrodes have been re-ordered so those
+              belonging to the same community are adjacent (boundaries shown in
+              black lines). D Spring-loaded network plot; nodes (circles) that
+              are more strongly connected are drawn more closely together. The
+              size of each node is proportional to its strength. Community
+              membership is indicated by the fill color of each node. The nodes
+              outlined in blue are LE nodes. E Network metrics were
+              calculated—PC (participation coefficient), strength, CC
+              (clustering coefficient), LE (local efficiency), and EC
+              (eigenvector centrality). Metric values for every node are
+              plotted; large colored points represent critical nodes and small
+              gray points are all other nodes. Boxes demonstrate the median and
+              interquartile range. We used these metrics to train machine
+              learning classifiers to predict which nodes would be critical to
+              language and speech. Example data (C–E) are provided from a single
+              participant (n = 1) for each visualization. Source data are
+              provided as a Source Data file."
             </p>
           ) : (
             <p>
-              "An example of performance of a bivariate smoothing model, dependently on the number of data-points included in 2D moving average (window size), for ERC containing 20 channels (K=20) recorded during naming of ambiguous objects. Top panel shows results in patient #8. Top-left: the difference between the ERC values and the values of 2D moving average. Top-middle; confidence interval. Top-right: the criterion for model selection. X and Y axes represent window size by distances from the center-point of the window of 2D moving average, in time-points and frequency-points accordingly. Colorscale (min-max) at the right. Bottom panel shows the criterion for model selection averaged over all patients (bottom-left) and their projections on time-plane (bottom-middle), and on frequency-plane (bottom-right)."
+              "An example of performance of a bivariate smoothing model,
+              dependently on the number of data-points included in 2D moving
+              average (window size), for ERC containing 20 channels (K=20)
+              recorded during naming of ambiguous objects. Top panel shows
+              results in patient #8. Top-left: the difference between the ERC
+              values and the values of 2D moving average. Top-middle; confidence
+              interval. Top-right: the criterion for model selection. X and Y
+              axes represent window size by distances from the center-point of
+              the window of 2D moving average, in time-points and
+              frequency-points accordingly. Colorscale (min-max) at the right.
+              Bottom panel shows the criterion for model selection averaged over
+              all patients (bottom-left) and their projections on time-plane
+              (bottom-middle), and on frequency-plane (bottom-right)."
             </p>
-          )} */}
+          )}
         </Col>
       </Row>
 
