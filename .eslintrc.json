@@ -24,6 +24,7 @@
         "no-return-assign":"off",
         "react/no-unescaped-entities": "off",
         "max-len": "off",
-        "camelcase": "off"
+        "camelcase": "off",
+        "linebreak-style": ["error", "windows"]
     }
 }
