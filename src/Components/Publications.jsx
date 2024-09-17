@@ -13,7 +13,6 @@ function Publications() {
           Slutzky. Cortical sites critical to language function act as
           connectors between language subnetworks. Nat Commun 15, 7897 (2024)
         </ListGroupItem>
-
         <ListGroupItem>
           Angrick, M., Luo, S., Rabbani, Q., Candrea, D. N., Shah, S., Milsap,
           G. W., Anderson, W. S., Gordon, C. R., Rosenblatt, K. R., Clawson, L.,
@@ -30,7 +29,6 @@ function Publications() {
           year-long longitudinal study. Journal of Neural Engineering, 21(4),
           046016.
         </ListGroupItem>
-
         <ListGroupItem>
           Vansteensel, M. J., Leinders, S., Branco, M. P., Crone, N. E.,
           Denison, T., Freudenburg, Z. V., Geukes, S. H., Gosselaar, P. H.,
@@ -39,7 +37,17 @@ function Publications() {
           Amyotrophic Lateral Sclerosis. New England Journal of Medicine,
           391(7), 619–626.
         </ListGroupItem>
-
+        Weiss AR, Korzeniewska A, Chrabaszcz A, Bush A, Fiez JA, Crone NE,
+        Richardson RM. Lexicality-modulated influence of auditory cortex on
+        subthalamic nucleus during motor planning for speech. Neurobiol Lang.
+        2023;4(1):53-80
+        <ListGroupItem />
+        <ListGroupItem>
+          Usami K, Matsumoto R, Korzeniewska A, Shimotake A, Matsuhashi M, Nakae
+          T, Kikuchi T, Yoshida K, Kunieda T, Takahashi R, Crone NE, Ikeda A.
+          The dynamics of cortical interactions in visual recognition of object
+          category: living vs nonliving. Cereb Cortex. 2023;33(9):5740-5750
+        </ListGroupItem>
         <ListGroupItem>
           Luo, S., Angrick, M., Coogan, C., Candrea, D. N., Wyse-Sookoo, K.,
           Shah, S., Rabbani, Q., Milsap, G. W., Weiss, A. R., Anderson, W. S.,
@@ -49,7 +57,6 @@ function Publications() {
           Control for an Individual with ALS without Recalibration for 3 Months.
           Advanced Science, 10(35), 2304853.
         </ListGroupItem>
-
         <ListGroupItem>
           Luo S, Rabbani Q, Crone NE. Brain-Computer Interface: Applications to
           Speech Decoding and Synthesis to Augment Communication.
@@ -62,20 +69,17 @@ function Publications() {
           Rate is related to High State Anxiety. 2020. Journal of
           Neurophysiology. J Neurophysiol. 2021;125: 305–319.
         </ListGroupItem>
-
         <ListGroupItem>
           Korzeniewska A, Mitsuhashi T, Wang Y, Asano E, Franaszczuk PJ, Crone
           NE. Significance of event related causality (ERC) in eloquent neural
           networks. Neural Networks. 2022;149:204-216.
         </ListGroupItem>
-
         <ListGroupItem>
           Wang Y, Hays MA, Coogan C, Korzeniewska A, Crone NE. Spatial-temporal
           mapping combined with cortico-cortical evoked potentials in predicting
           cortical stimulation results. Frontiers in Human Neuroscience
           2021;15:661976.
         </ListGroupItem>
-
         <ListGroupItem>
           Gunnarsdottir KM, Li A, Smith RJ, Kang J-Y, Crone NE, Korzeniewska A,
           Rouse A, Cameron N, Cajigas I, Inati S, Zaghloul KA, Boerwinkle VL,
@@ -83,27 +87,23 @@ function Publications() {
           connectivity: a novel resting-state EEG marker of the epileptogenic
           zone. BioRxiv. 2021. doi: https://doi.org/10.1101/2021.10.15.464594
         </ListGroupItem>
-
         <ListGroupItem>
           Hays MA, Smith RJ, Haridas B, Coogan C, Crone NE, Kang JY. Effects of
           stimulation intensity on intracranial cortico-cortical evoked
           potentials: A titration study. Clinical Neurophysiology 2021; 132(11):
           2766-2777
         </ListGroupItem>
-
         <ListGroupItem>
           Hays MA, Coogan C, Crone NE, Kang JY. Graph theoretical analysis of
           evoked potentials shows network influence of epileptogenic mesial
           temporal region. Human Brain Mapping 2021; 42(13): 4173-4186
         </ListGroupItem>
-
         <ListGroupItem>
           Kamali G, Smith RJ, Hays M, Coogan C, Crone NE, Kang JY, Sarma SV.
           Transfer Function Models for the Localization of Seizure Onset Zone
           from Cortico-Cortical Evoked Potentials. Frontiers in Neurology 2020;
           11: 1431
         </ListGroupItem>
-
         <ListGroupItem>
           Chien J-H, Colloca L, Korzeniewska A, Meeker TJ, Bienvenu JO, Saffer
           MI, Lenz FA. Behavioral, Physiological and EEG Activities Associated
@@ -123,20 +123,17 @@ function Publications() {
           nucleus activity influences sensory and motor cortex during force
           transduction. Cerebral Cortex. 2020;30(4):2615-2626.
         </ListGroupItem>
-
         <ListGroupItem>
           Korzeniewska A, Wang Y, Benz HL, Fifer MS, Collard M, Milsap G,
           Cervenka MC, Martin A, Gotts SJ, Crone NE. Changes in human brain
           dynamics during behavioral priming and repetition suppression. Prog
           Neurobiol. 2020;189:101788.
         </ListGroupItem>
-
         <ListGroupItem>
           Wang Y, Korzeniewska A, Usami K, Valenzuela A, Crone NE. The dynamics
           of language networks interactions in lexical selection: an
           intracranial EEG study. Cerebral Cortex. 2020. In Print
         </ListGroupItem>
-
         <ListGroupItem>
           Rabbani, Qinwan, Griffin Milsap, and Nathan E. Crone. "The Potential
           for a Speech Brain–Computer Interface Using Chronic
