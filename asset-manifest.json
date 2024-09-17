@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2553cb7.css",
-    "main.js": "/static/js/main.57b19a3a.js",
+    "main.js": "/static/js/main.4b2781ee.js",
     "static/media/LabPhoto_2020.png": "/static/media/LabPhoto_2020.addaadd6465de019cf4d.png",
     "static/media/Mark.jpg": "/static/media/Mark.182b5f039757780b2096.jpg",
     "static/media/LabPhoto_2018_2.jpg": "/static/media/LabPhoto_2018_2.8f06f0a147351eff5fd3.jpg",
@@ -59,10 +59,10 @@
     "static/media/KyleRupp.jpg": "/static/media/KyleRupp.2f63bfb0f5a5e5f8be8c.jpg",
     "index.html": "/index.html",
     "main.a2553cb7.css.map": "/static/css/main.a2553cb7.css.map",
-    "main.57b19a3a.js.map": "/static/js/main.57b19a3a.js.map"
+    "main.4b2781ee.js.map": "/static/js/main.4b2781ee.js.map"
   },
   "entrypoints": [
     "static/css/main.a2553cb7.css",
-    "static/js/main.57b19a3a.js"
+    "static/js/main.4b2781ee.js"
   ]
 }
