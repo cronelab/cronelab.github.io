@@ -67,12 +67,22 @@ function Main() {
             understanding of how focal cortical stimulation interacts with
             complex brain networks to elicit language deficits.
           </p>
-          <Button
-            href="https://www.nature.com/articles/s41467-024-51839-z"
-            target="_blank"
-          >
-            Full Text
-          </Button>
+          <p>
+            <Button
+              href="https://www.nature.com/articles/s41467-024-51839-z"
+              target="_blank"
+            >
+              Full Text
+            </Button>
+          </p>
+          <p>
+            <Button
+              href="https://news.northwestern.edu/stories/2024/september/vital-language-sites-in-brain-act-like-connectors-in-a-social-network/?fj=1"
+              target="_blank"
+            >
+              Press Release
+            </Button>
+          </p>
         </Col>
         <Col>
           <Carousel
@@ -354,18 +364,22 @@ function Main() {
             robotics, addresses limitations of current BMIs.
             {' '}
           </p>
-          <Button
-            href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036&tag=1"
-            target="_blank"
-          >
-            Full Text
-          </Button>
-          <Button
-            href="https://ieeexplore.ieee.org/document/6683036/media#media"
-            target="_blank"
-          >
-            Videos
-          </Button>
+          <p>
+            <Button
+              href="http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6683036&tag=1"
+              target="_blank"
+            >
+              Full Text
+            </Button>
+          </p>
+          <p>
+            <Button
+              href="https://ieeexplore.ieee.org/document/6683036/media#media"
+              target="_blank"
+            >
+              Videos
+            </Button>
+          </p>
         </Col>
         <Col>
           <Image fluid src={Hybrid_BCI} />
