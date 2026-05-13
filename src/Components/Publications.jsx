@@ -6,6 +6,65 @@ function Publications() {
     <>
       <h3>Journal Publications</h3>
       <ListGroup>
+
+      {/*--------------------------------2025 --------------------------*/}
+        <ListGroupItem>
+        Kurt R Lehner, Shiyu Luo, Becca Greene, Miguel Angrick, Daniel Candrea, 
+        Khalil S Husari, Katrina Barth, Jackie Dister, Ramin Anushiravani, 
+        Joshua S Miller, Elton Ho, Jordina Rincon-Torroella, Benjamin Rapoport, 
+        Youssef Comair, Nathan E Crone. Initial experience with the precision
+         neuroscience Layer 7 micro-electrocorticography interface for real-time 
+         intraoperative neural decoding. Neurosurgical Focus 60 (2) 2026.
+        </ListGroupItem>
+
+      {/*--------------------------------2025 --------------------------*/}
+        <ListGroupItem>
+        Anouck Schippers, Mariska J Vansteensel, Zac V Freudenburg, Shiyu Luo, 
+        Nathan E Crone, Nick F Ramsey. Don’t put words in my mouth: speech 
+        perception can falsely activate a brain-computer interface. J NeuroEngineering 
+        Rehabil 22, 181 (2025). 
+        </ListGroupItem>
+        <ListGroupItem>
+      Miguel Angrick, Shiyu Luo, Qinwan Rabbani, Shreya Joshi, Daniel N Candrea,
+       Griffin W Milsap, Chad R Gordon, Kathryn Rosenblatt, Lora Clawson, 
+       Nicholas Maragakis, Francesco V Tenore, Matthew S Fifer, Nick F Ramsey, 
+       Nathan E Crone. Real-time detection of spoken speech from unlabeled ECoG 
+       signals: a pilot study with an ALS participant. J. Neural Eng. 22 056023 (2025).
+        </ListGroupItem>
+       <ListGroupItem>
+        A Schippers, J Berezutskaya, MJ Vansteensel, ZV Freudenburg, NE Crone, 
+        NF Ramsey.The effect of perceived auditory feedback on speech Brain-Computer 
+        Interface decoding performance. Clinical Neurophysiology Vol. 180 2025
+        </ListGroupItem>      
+         <ListGroupItem>
+          David A Bjånes, Spencer Kellis, Robert Nickl, Brian Baker, Tyson Aflalo, 
+          Luke Bashford, Srinivas Chivukula, Matthew S Fifer, Luke E Osborn, 
+          Breanne Christie, Brock A Wester, Pablo A Celnik, Daniel Kramer, Kelsie 
+          Pejsa, Nathan E Crone, William S Anderson, Nadar Pouratian, Brian Lee, 
+          Charles Y Liu, Francesco V Tenore, Loren Rieth, Richard A Andersen.
+          Quantifying physical degradation alongside recording and stimulation 
+          performance of 980 intracortical microelectrodes chronically implanted 
+          in three humans for 956-2130 days. Acta Biomaterialia, Vol 198,2025. 
+        </ListGroupItem>
+      {/*--------------------------------2024 --------------------------*/}
+
+
+        <ListGroupItem>
+        Daniel N Candrea, Samyak Shah, Shiyu Luo, Miguel Angrick, Qinwan Rabbani, 
+        Christopher Coogan, Griffin W Milsap, Kevin C Nathan, Brock A Wester, 
+        William S Anderson, Kathryn R Rosenblatt, Alpa Uchil, Lora Clawson, Nicholas 
+        J Maragakis, Mariska J Vansteensel, Francesco V Tenore, Nicolas F Ramsey, 
+        Matthew S Fifer, Nathan E Crone. A click-based electrocorticographic 
+        brain-computer interface enables long-term high-performance switch scan 
+        spelling.Commun Med 4, 207 (2024). 
+        </ListGroupItem>
+
+        <ListGroupItem>
+         Qinwan Rabbani, Samyak Shah, Griffin Milsap, Matthew Fifer, Hynek 
+         Hermansky and Nathan Crone. Iterative alignment discovery of speech-associated 
+         eural activity. J. Neural Eng. 21 046056 (2024)
+        </ListGroupItem>
+
         <ListGroupItem>
           Jason K. Hsieh, Prashanth R. Prakash, Robert D. Flint, Zachary
           Fitzgerald, Emily Mugler, Yujing Wang, Nathan E. Crone, Jessica W.
@@ -37,6 +96,9 @@ function Publications() {
           Amyotrophic Lateral Sclerosis. New England Journal of Medicine,
           391(7), 619–626.
         </ListGroupItem>
+        {/*--------------------------------2023 --------------------------*/}
+
+        <ListGroupItem>
         Weiss AR, Korzeniewska A, Chrabaszcz A, Bush A, Fiez JA, Crone NE,
         Richardson RM. Lexicality-modulated influence of auditory cortex on
         subthalamic nucleus during motor planning for speech. Neurobiol Lang.
@@ -744,6 +806,7 @@ function Publications() {
         </ListGroupItem>
       </ListGroup>
 
+{/*
       <h3>Recent Conference Publications</h3>
       <ListGroup>
         <ListGroupItem>
@@ -818,6 +881,7 @@ function Publications() {
           Med Biol Soc, 2010:130-3, 2010
         </ListGroupItem>
       </ListGroup>
+      */}
 
       <h3>Patents</h3>
       <ListGroup>
